@@ -1,0 +1,3080 @@
+[
+    {
+      "TotalTravelTimes": [
+        {
+          "TotalLayoverTime": "0",
+          "TravelType": "onward",
+          "TotalTravelDuration": "45m",
+          "NoOfStop": 0,
+          "SegmentCount": 1
+        }
+      ],
+      "FareBreakdown": [
+        {
+          "TaxesBreakdown": [
+            {
+              "Category": "BD",
+              "Amount": 25
+            },
+            {
+              "Category": "OW",
+              "Amount": 500
+            },
+            {
+              "Category": "P7",
+              "Amount": 100
+            },
+            {
+              "Category": "P8",
+              "Amount": 70
+            },
+            {
+              "Category": "E5",
+              "Amount": 30
+            }
+          ],
+          "Discount": 190,
+          "MarkupAmount": 0,
+          "ServiceCharge": 0,
+          "ReIssueCharge": null,
+          "IsMaxChildAge": null,
+          "PassengerType": "ADT",
+          "TotalFare": 3505,
+          "NoOfPassenger": 1,
+          "BaseFare": 2780,
+          "TotalTax": 725,
+          "Surcharges": 0,
+          "ApiDiscount": 0,
+          "Fees": 0,
+          "AIT": 11
+        }
+      ],
+      "Onwards": [
+        {
+          "OriginAirPortName": "Hazrat Shahjalal International Airport,Dhaka,Bangladesh",
+          "DestinationAirPortName": "Shah Amanat International Airport",
+          "GridRatio": "12",
+          "LayoverGridRatio": null,
+          "LayoverTime": null,
+          "AirSegment_Key": "L9p5UXFDuDKAZBws0FAAAA==",
+          "Group": 0,
+          "Carrier": "BG",
+          "CarrierName": "Biman Bangladesh Airlines",
+          "FlightNumber": "611",
+          "Origin": "DAC",
+          "Destination": "CGP",
+          "DepartureTime": "2023-02-16T08:15:00",
+          "ArrivalTime": "2023-02-16T09:00:00",
+          "TravelDuration": "45m",
+          "Distance": "0m",
+          "AvailabilitySource": "P",
+          "OperatingCarrier": "BG",
+          "OperatingCarrierName": "Biman Bangladesh Airlines",
+          "OperatingFlightNumber": "611",
+          "OriginTerminal": null,
+          "DestinationTerminal": null,
+          "BookingCode": "G",
+          "BookingCount": "9",
+          "CabinClass": "Economy",
+          "FareBasis": "GDACFO",
+          "Currency": "BDT",
+          "AirBaggageAllowance": "20 Kilograms",
+          "Equipment": "Boeing-738",
+          "HiddenSegment": null
+        }
+      ],
+      "Returns": [
+  
+      ],
+      "TotalDiscount": 190,
+      "TotalServiceCharge": 0,
+      "ServiceChargeValue": 0,
+      "ServiceChargeType": "Flat",
+      "TotalAIT": 11,
+      "AgentExtraFair": 0,
+      "SubAgentExtraFair": 0,
+      "TotalMarkup": 0,
+      "CampaignDiscount": null,
+      "CampaignBank": null,
+      "CampaignMaxDiscount": null,
+      "DepositTotalPrice": 0,
+      "OnlineTotalPrice": 0,
+      "MatchingData": null,
+      "MetaKey": null,
+      "ApiName": null,
+      "IsToggleBrandedFare": false,
+      "MatchingResults": null,
+      "BrandedFareInfoes": [
+  
+      ],
+      "AirPricingSolution_Key": "L9p5UXFDuDKAYBws0FAAAA==",
+      "TotalPrice": 3516,
+      "BasePrice": 2780,
+      "AIT": 0,
+      "APICurrencyType": "BDT",
+      "PassengerType": "ADT",
+      "Adults": 1,
+      "Childs": 0,
+      "Infants": 0,
+      "PlatingCarrier": "BG",
+      "PlatingCarrierName": "Biman Bangladesh Airlines",
+      "IsRefundable": true,
+      "IsBookable": true,
+      "IsTaxBreakdownAvailable": true,
+      "TotalTax": 725,
+      "LatestTicketingTime": "25/01/2023",
+      "ChangePenalties": [
+        {
+          "PenaltyAmount": 0,
+          "PenaltyType": 0,
+          "PenaltyApplies": "Anytime",
+          "IsNoShow": null
+        }
+      ],
+      "CancelPenalties": [
+        {
+          "PenaltyAmount": 0,
+          "PenaltyType": 0,
+          "PenaltyApplies": "Anytime",
+          "IsNoShow": false
+        }
+      ],
+      "FareType": "PrivateFare",
+      "TripType": "OneWay",
+      "SegmentCode": "RkxZMjc4Q0Y1MUI4MjM2NjM4MTAxNTgyMzEzMDMwNjAyX0dEU182MzgxMDE1ODIzMjg1NTA1ODl8TDlwNVVYRkR1REtBWUJ3czBGQUFBQT09fElHSEFFQlRDMDE=",
+      "HasOwnID": true,
+      "OwnIDRef": "IGHAEBTC01",
+      "ApiTotalDiscount": 0,
+      "IGXKey": "FLY278CF51B8236638101582313030602",
+      "AdditionalText": null,
+      "GDSCode": "1G",
+      "IsBrandedFare": false,
+      "IsPassportAndVisaRequired": false
+    },
+    {
+      "TotalTravelTimes": [
+        {
+          "TotalLayoverTime": "0",
+          "TravelType": "onward",
+          "TotalTravelDuration": "45m",
+          "NoOfStop": 0,
+          "SegmentCount": 1
+        }
+      ],
+      "FareBreakdown": [
+        {
+          "TaxesBreakdown": [
+            {
+              "Category": "BD",
+              "Amount": 25
+            },
+            {
+              "Category": "OW",
+              "Amount": 500
+            },
+            {
+              "Category": "P7",
+              "Amount": 100
+            },
+            {
+              "Category": "P8",
+              "Amount": 70
+            },
+            {
+              "Category": "E5",
+              "Amount": 30
+            }
+          ],
+          "Discount": 190,
+          "MarkupAmount": 0,
+          "ServiceCharge": 0,
+          "ReIssueCharge": null,
+          "IsMaxChildAge": null,
+          "PassengerType": "ADT",
+          "TotalFare": 3505,
+          "NoOfPassenger": 1,
+          "BaseFare": 2780,
+          "TotalTax": 725,
+          "Surcharges": 0,
+          "ApiDiscount": 0,
+          "Fees": 0,
+          "AIT": 11
+        }
+      ],
+      "Onwards": [
+        {
+          "OriginAirPortName": "Hazrat Shahjalal International Airport,Dhaka,Bangladesh",
+          "DestinationAirPortName": "Shah Amanat International Airport",
+          "GridRatio": "12",
+          "LayoverGridRatio": null,
+          "LayoverTime": null,
+          "AirSegment_Key": "L9p5UXFDuDKAuBws0FAAAA==",
+          "Group": 0,
+          "Carrier": "BG",
+          "CarrierName": "Biman Bangladesh Airlines",
+          "FlightNumber": "615",
+          "Origin": "DAC",
+          "Destination": "CGP",
+          "DepartureTime": "2023-02-16T15:45:00",
+          "ArrivalTime": "2023-02-16T16:30:00",
+          "TravelDuration": "45m",
+          "Distance": "0m",
+          "AvailabilitySource": "P",
+          "OperatingCarrier": "BG",
+          "OperatingCarrierName": "Biman Bangladesh Airlines",
+          "OperatingFlightNumber": "615",
+          "OriginTerminal": null,
+          "DestinationTerminal": null,
+          "BookingCode": "G",
+          "BookingCount": "9",
+          "CabinClass": "Economy",
+          "FareBasis": "GDACFO",
+          "Currency": "BDT",
+          "AirBaggageAllowance": "20 Kilograms",
+          "Equipment": "Boeing-738",
+          "HiddenSegment": null
+        }
+      ],
+      "Returns": [
+  
+      ],
+      "TotalDiscount": 190,
+      "TotalServiceCharge": 0,
+      "ServiceChargeValue": 0,
+      "ServiceChargeType": "Flat",
+      "TotalAIT": 11,
+      "AgentExtraFair": 0,
+      "SubAgentExtraFair": 0,
+      "TotalMarkup": 0,
+      "CampaignDiscount": null,
+      "CampaignBank": null,
+      "CampaignMaxDiscount": null,
+      "DepositTotalPrice": 0,
+      "OnlineTotalPrice": 0,
+      "MatchingData": null,
+      "MetaKey": null,
+      "ApiName": null,
+      "IsToggleBrandedFare": false,
+      "MatchingResults": null,
+      "BrandedFareInfoes": [
+  
+      ],
+      "AirPricingSolution_Key": "L9p5UXFDuDKAtBws0FAAAA==",
+      "TotalPrice": 3516,
+      "BasePrice": 2780,
+      "AIT": 0,
+      "APICurrencyType": "BDT",
+      "PassengerType": "ADT",
+      "Adults": 1,
+      "Childs": 0,
+      "Infants": 0,
+      "PlatingCarrier": "BG",
+      "PlatingCarrierName": "Biman Bangladesh Airlines",
+      "IsRefundable": true,
+      "IsBookable": true,
+      "IsTaxBreakdownAvailable": true,
+      "TotalTax": 725,
+      "LatestTicketingTime": "25/01/2023",
+      "ChangePenalties": [
+        {
+          "PenaltyAmount": 0,
+          "PenaltyType": 0,
+          "PenaltyApplies": "Anytime",
+          "IsNoShow": null
+        }
+      ],
+      "CancelPenalties": [
+        {
+          "PenaltyAmount": 0,
+          "PenaltyType": 0,
+          "PenaltyApplies": "Anytime",
+          "IsNoShow": false
+        }
+      ],
+      "FareType": "PrivateFare",
+      "TripType": "OneWay",
+      "SegmentCode": "RkxZMjc4Q0Y1MUI4MjM2NjM4MTAxNTgyMzEzMDMwNjAyX0dEU182MzgxMDE1ODIzMjg1NTA1ODl8TDlwNVVYRkR1REtBdEJ3czBGQUFBQT09fElHSEFFQlRDMDE=",
+      "HasOwnID": true,
+      "OwnIDRef": "IGHAEBTC01",
+      "ApiTotalDiscount": 0,
+      "IGXKey": "FLY278CF51B8236638101582313030602",
+      "AdditionalText": null,
+      "GDSCode": "1G",
+      "IsBrandedFare": false,
+      "IsPassportAndVisaRequired": false
+    },
+    {
+      "TotalTravelTimes": [
+        {
+          "TotalLayoverTime": "0",
+          "TravelType": "onward",
+          "TotalTravelDuration": "55m",
+          "NoOfStop": 0,
+          "SegmentCount": 1
+        }
+      ],
+      "FareBreakdown": [
+        {
+          "TaxesBreakdown": [
+            {
+              "Category": "BD",
+              "Amount": 25
+            },
+            {
+              "Category": "OW",
+              "Amount": 500
+            },
+            {
+              "Category": "P7",
+              "Amount": 100
+            },
+            {
+              "Category": "P8",
+              "Amount": 70
+            },
+            {
+              "Category": "E5",
+              "Amount": 30
+            }
+          ],
+          "Discount": 190,
+          "MarkupAmount": 0,
+          "ServiceCharge": 0,
+          "ReIssueCharge": null,
+          "IsMaxChildAge": null,
+          "PassengerType": "ADT",
+          "TotalFare": 3505,
+          "NoOfPassenger": 1,
+          "BaseFare": 2780,
+          "TotalTax": 725,
+          "Surcharges": 0,
+          "ApiDiscount": 0,
+          "Fees": 0,
+          "AIT": 11
+        }
+      ],
+      "Onwards": [
+        {
+          "OriginAirPortName": "Hazrat Shahjalal International Airport,Dhaka,Bangladesh",
+          "DestinationAirPortName": "Shah Amanat International Airport",
+          "GridRatio": "12",
+          "LayoverGridRatio": null,
+          "LayoverTime": null,
+          "AirSegment_Key": "L9p5UXFDuDKAqBws0FAAAA==",
+          "Group": 0,
+          "Carrier": "BG",
+          "CarrierName": "Biman Bangladesh Airlines",
+          "FlightNumber": "617",
+          "Origin": "DAC",
+          "Destination": "CGP",
+          "DepartureTime": "2023-02-16T19:45:00",
+          "ArrivalTime": "2023-02-16T20:40:00",
+          "TravelDuration": "55m",
+          "Distance": "0m",
+          "AvailabilitySource": "P",
+          "OperatingCarrier": "BG",
+          "OperatingCarrierName": "Biman Bangladesh Airlines",
+          "OperatingFlightNumber": "617",
+          "OriginTerminal": null,
+          "DestinationTerminal": null,
+          "BookingCode": "G",
+          "BookingCount": "9",
+          "CabinClass": "Economy",
+          "FareBasis": "GDACFO",
+          "Currency": "BDT",
+          "AirBaggageAllowance": "20 Kilograms",
+          "Equipment": "DH8",
+          "HiddenSegment": null
+        }
+      ],
+      "Returns": [
+  
+      ],
+      "TotalDiscount": 190,
+      "TotalServiceCharge": 0,
+      "ServiceChargeValue": 0,
+      "ServiceChargeType": "Flat",
+      "TotalAIT": 11,
+      "AgentExtraFair": 0,
+      "SubAgentExtraFair": 0,
+      "TotalMarkup": 0,
+      "CampaignDiscount": null,
+      "CampaignBank": null,
+      "CampaignMaxDiscount": null,
+      "DepositTotalPrice": 0,
+      "OnlineTotalPrice": 0,
+      "MatchingData": null,
+      "MetaKey": null,
+      "ApiName": null,
+      "IsToggleBrandedFare": false,
+      "MatchingResults": null,
+      "BrandedFareInfoes": [
+  
+      ],
+      "AirPricingSolution_Key": "L9p5UXFDuDKA3Bws0FAAAA==",
+      "TotalPrice": 3516,
+      "BasePrice": 2780,
+      "AIT": 0,
+      "APICurrencyType": "BDT",
+      "PassengerType": "ADT",
+      "Adults": 1,
+      "Childs": 0,
+      "Infants": 0,
+      "PlatingCarrier": "BG",
+      "PlatingCarrierName": "Biman Bangladesh Airlines",
+      "IsRefundable": true,
+      "IsBookable": true,
+      "IsTaxBreakdownAvailable": true,
+      "TotalTax": 725,
+      "LatestTicketingTime": "25/01/2023",
+      "ChangePenalties": [
+        {
+          "PenaltyAmount": 0,
+          "PenaltyType": 0,
+          "PenaltyApplies": "Anytime",
+          "IsNoShow": null
+        }
+      ],
+      "CancelPenalties": [
+        {
+          "PenaltyAmount": 0,
+          "PenaltyType": 0,
+          "PenaltyApplies": "Anytime",
+          "IsNoShow": false
+        }
+      ],
+      "FareType": "PrivateFare",
+      "TripType": "OneWay",
+      "SegmentCode": "RkxZMjc4Q0Y1MUI4MjM2NjM4MTAxNTgyMzEzMDMwNjAyX0dEU182MzgxMDE1ODIzMjg1NTA1ODl8TDlwNVVYRkR1REtBM0J3czBGQUFBQT09fElHSEFFQlRDMDE=",
+      "HasOwnID": true,
+      "OwnIDRef": "IGHAEBTC01",
+      "ApiTotalDiscount": 0,
+      "IGXKey": "FLY278CF51B8236638101582313030602",
+      "AdditionalText": null,
+      "GDSCode": "1G",
+      "IsBrandedFare": false,
+      "IsPassportAndVisaRequired": false
+    },
+    {
+      "TotalTravelTimes": [
+        {
+          "TotalLayoverTime": "0",
+          "TravelType": "onward",
+          "TotalTravelDuration": "45m",
+          "NoOfStop": 0,
+          "SegmentCount": 0
+        }
+      ],
+      "FareBreakdown": [
+        {
+          "TaxesBreakdown": [
+            {
+              "Category": "BD",
+              "Amount": 25
+            },
+            {
+              "Category": "E5",
+              "Amount": 30
+            },
+            {
+              "Category": "OW2",
+              "Amount": 500
+            },
+            {
+              "Category": "P7",
+              "Amount": 100
+            },
+            {
+              "Category": "P8",
+              "Amount": 70
+            }
+          ],
+          "Discount": 193,
+          "MarkupAmount": 0,
+          "ServiceCharge": 0,
+          "ReIssueCharge": null,
+          "IsMaxChildAge": null,
+          "PassengerType": "ADT",
+          "TotalFare": 3502,
+          "NoOfPassenger": 1,
+          "BaseFare": 2777,
+          "TotalTax": 725,
+          "Surcharges": 0,
+          "ApiDiscount": 0,
+          "Fees": 0,
+          "AIT": 11
+        }
+      ],
+      "Onwards": [
+        {
+          "OriginAirPortName": "Hazrat Shahjalal International Airport,Dhaka,Bangladesh",
+          "DestinationAirPortName": "Shah Amanat International Airport",
+          "GridRatio": "12",
+          "LayoverGridRatio": null,
+          "LayoverTime": null,
+          "AirSegment_Key": "",
+          "Group": 0,
+          "Carrier": "BG",
+          "CarrierName": "Biman Bangladesh Airlines",
+          "FlightNumber": "611",
+          "Origin": "DAC",
+          "Destination": "CGP",
+          "DepartureTime": "2023-02-16T08:15:00",
+          "ArrivalTime": "2023-02-16T09:00:00",
+          "TravelDuration": "45m",
+          "Distance": "139m",
+          "AvailabilitySource": "MIP",
+          "OperatingCarrier": "BG",
+          "OperatingCarrierName": "Biman Bangladesh Airlines",
+          "OperatingFlightNumber": "611",
+          "OriginTerminal": null,
+          "DestinationTerminal": null,
+          "BookingCode": "G",
+          "BookingCount": "9",
+          "CabinClass": "Y",
+          "FareBasis": "GDACFO",
+          "Currency": "BDT",
+          "AirBaggageAllowance": " ADT : 20 kg",
+          "Equipment": "Boeing-738",
+          "HiddenSegment": ""
+        }
+      ],
+      "Returns": [
+  
+      ],
+      "TotalDiscount": 193,
+      "TotalServiceCharge": 0,
+      "ServiceChargeValue": 0,
+      "ServiceChargeType": "Flat",
+      "TotalAIT": 11,
+      "AgentExtraFair": 0,
+      "SubAgentExtraFair": 0,
+      "TotalMarkup": 0,
+      "CampaignDiscount": null,
+      "CampaignBank": null,
+      "CampaignMaxDiscount": null,
+      "DepositTotalPrice": 0,
+      "OnlineTotalPrice": 0,
+      "MatchingData": null,
+      "MetaKey": null,
+      "ApiName": null,
+      "IsToggleBrandedFare": false,
+      "MatchingResults": null,
+      "BrandedFareInfoes": [
+  
+      ],
+      "AirPricingSolution_Key": "0-2",
+      "TotalPrice": 3513,
+      "BasePrice": 2777,
+      "AIT": 0,
+      "APICurrencyType": "BDT",
+      "PassengerType": null,
+      "Adults": 1,
+      "Childs": 0,
+      "Infants": 0,
+      "PlatingCarrier": "BG",
+      "PlatingCarrierName": "Biman Bangladesh Airlines",
+      "IsRefundable": true,
+      "IsBookable": true,
+      "IsTaxBreakdownAvailable": true,
+      "TotalTax": 725,
+      "LatestTicketingTime": "25/01/2023",
+      "ChangePenalties": null,
+      "CancelPenalties": null,
+      "FareType": "PublicFare",
+      "TripType": "OneWay",
+      "SegmentCode": "RkxZMjc4Q0Y1MUI4MjM2NjM4MTAxNTgyMzEzMDMwNjAyX1NCUl82MzgxMDE1ODIzMjI3NzA3MDl8MC0yfElHVEFDQlNDMTU=",
+      "HasOwnID": true,
+      "OwnIDRef": "IGTACBSC15",
+      "ApiTotalDiscount": 0,
+      "IGXKey": "FLY278CF51B8236638101582313030602",
+      "AdditionalText": null,
+      "GDSCode": "1S",
+      "IsBrandedFare": false,
+      "IsPassportAndVisaRequired": false
+    },
+    {
+      "TotalTravelTimes": [
+        {
+          "TotalLayoverTime": "0",
+          "TravelType": "onward",
+          "TotalTravelDuration": "45m",
+          "NoOfStop": 0,
+          "SegmentCount": 0
+        }
+      ],
+      "FareBreakdown": [
+        {
+          "TaxesBreakdown": [
+            {
+              "Category": "BD",
+              "Amount": 25
+            },
+            {
+              "Category": "E5",
+              "Amount": 30
+            },
+            {
+              "Category": "OW2",
+              "Amount": 500
+            },
+            {
+              "Category": "P7",
+              "Amount": 100
+            },
+            {
+              "Category": "P8",
+              "Amount": 70
+            }
+          ],
+          "Discount": 193,
+          "MarkupAmount": 0,
+          "ServiceCharge": 0,
+          "ReIssueCharge": null,
+          "IsMaxChildAge": null,
+          "PassengerType": "ADT",
+          "TotalFare": 3502,
+          "NoOfPassenger": 1,
+          "BaseFare": 2777,
+          "TotalTax": 725,
+          "Surcharges": 0,
+          "ApiDiscount": 0,
+          "Fees": 0,
+          "AIT": 11
+        }
+      ],
+      "Onwards": [
+        {
+          "OriginAirPortName": "Hazrat Shahjalal International Airport,Dhaka,Bangladesh",
+          "DestinationAirPortName": "Shah Amanat International Airport",
+          "GridRatio": "12",
+          "LayoverGridRatio": null,
+          "LayoverTime": null,
+          "AirSegment_Key": "",
+          "Group": 0,
+          "Carrier": "BG",
+          "CarrierName": "Biman Bangladesh Airlines",
+          "FlightNumber": "615",
+          "Origin": "DAC",
+          "Destination": "CGP",
+          "DepartureTime": "2023-02-16T15:45:00",
+          "ArrivalTime": "2023-02-16T16:30:00",
+          "TravelDuration": "45m",
+          "Distance": "139m",
+          "AvailabilitySource": "MIP",
+          "OperatingCarrier": "BG",
+          "OperatingCarrierName": "Biman Bangladesh Airlines",
+          "OperatingFlightNumber": "615",
+          "OriginTerminal": null,
+          "DestinationTerminal": null,
+          "BookingCode": "G",
+          "BookingCount": "9",
+          "CabinClass": "Y",
+          "FareBasis": "GDACFO",
+          "Currency": "BDT",
+          "AirBaggageAllowance": " ADT : 20 kg",
+          "Equipment": "Boeing-738",
+          "HiddenSegment": ""
+        }
+      ],
+      "Returns": [
+  
+      ],
+      "TotalDiscount": 193,
+      "TotalServiceCharge": 0,
+      "ServiceChargeValue": 0,
+      "ServiceChargeType": "Flat",
+      "TotalAIT": 11,
+      "AgentExtraFair": 0,
+      "SubAgentExtraFair": 0,
+      "TotalMarkup": 0,
+      "CampaignDiscount": null,
+      "CampaignBank": null,
+      "CampaignMaxDiscount": null,
+      "DepositTotalPrice": 0,
+      "OnlineTotalPrice": 0,
+      "MatchingData": null,
+      "MetaKey": null,
+      "ApiName": null,
+      "IsToggleBrandedFare": false,
+      "MatchingResults": null,
+      "BrandedFareInfoes": [
+  
+      ],
+      "AirPricingSolution_Key": "0-5",
+      "TotalPrice": 3513,
+      "BasePrice": 2777,
+      "AIT": 0,
+      "APICurrencyType": "BDT",
+      "PassengerType": null,
+      "Adults": 1,
+      "Childs": 0,
+      "Infants": 0,
+      "PlatingCarrier": "BG",
+      "PlatingCarrierName": "Biman Bangladesh Airlines",
+      "IsRefundable": true,
+      "IsBookable": true,
+      "IsTaxBreakdownAvailable": true,
+      "TotalTax": 725,
+      "LatestTicketingTime": "25/01/2023",
+      "ChangePenalties": null,
+      "CancelPenalties": null,
+      "FareType": "PublicFare",
+      "TripType": "OneWay",
+      "SegmentCode": "RkxZMjc4Q0Y1MUI4MjM2NjM4MTAxNTgyMzEzMDMwNjAyX1NCUl82MzgxMDE1ODIzMjI3NzA3MDl8MC01fElHVEFDQlNDMTU=",
+      "HasOwnID": true,
+      "OwnIDRef": "IGTACBSC15",
+      "ApiTotalDiscount": 0,
+      "IGXKey": "FLY278CF51B8236638101582313030602",
+      "AdditionalText": null,
+      "GDSCode": "1S",
+      "IsBrandedFare": false,
+      "IsPassportAndVisaRequired": false
+    },
+    {
+      "TotalTravelTimes": [
+        {
+          "TotalLayoverTime": "0",
+          "TravelType": "onward",
+          "TotalTravelDuration": "55m",
+          "NoOfStop": 0,
+          "SegmentCount": 0
+        }
+      ],
+      "FareBreakdown": [
+        {
+          "TaxesBreakdown": [
+            {
+              "Category": "BD",
+              "Amount": 25
+            },
+            {
+              "Category": "E5",
+              "Amount": 30
+            },
+            {
+              "Category": "OW2",
+              "Amount": 500
+            },
+            {
+              "Category": "P7",
+              "Amount": 100
+            },
+            {
+              "Category": "P8",
+              "Amount": 70
+            }
+          ],
+          "Discount": 193,
+          "MarkupAmount": 0,
+          "ServiceCharge": 0,
+          "ReIssueCharge": null,
+          "IsMaxChildAge": null,
+          "PassengerType": "ADT",
+          "TotalFare": 3502,
+          "NoOfPassenger": 1,
+          "BaseFare": 2777,
+          "TotalTax": 725,
+          "Surcharges": 0,
+          "ApiDiscount": 0,
+          "Fees": 0,
+          "AIT": 11
+        }
+      ],
+      "Onwards": [
+        {
+          "OriginAirPortName": "Hazrat Shahjalal International Airport,Dhaka,Bangladesh",
+          "DestinationAirPortName": "Shah Amanat International Airport",
+          "GridRatio": "12",
+          "LayoverGridRatio": null,
+          "LayoverTime": null,
+          "AirSegment_Key": "",
+          "Group": 0,
+          "Carrier": "BG",
+          "CarrierName": "Biman Bangladesh Airlines",
+          "FlightNumber": "617",
+          "Origin": "DAC",
+          "Destination": "CGP",
+          "DepartureTime": "2023-02-16T19:45:00",
+          "ArrivalTime": "2023-02-16T20:40:00",
+          "TravelDuration": "55m",
+          "Distance": "139m",
+          "AvailabilitySource": "MIP",
+          "OperatingCarrier": "BG",
+          "OperatingCarrierName": "Biman Bangladesh Airlines",
+          "OperatingFlightNumber": "617",
+          "OriginTerminal": null,
+          "DestinationTerminal": null,
+          "BookingCode": "G",
+          "BookingCount": "9",
+          "CabinClass": "Y",
+          "FareBasis": "GDACFO",
+          "Currency": "BDT",
+          "AirBaggageAllowance": " ADT : 20 kg",
+          "Equipment": "DH8",
+          "HiddenSegment": ""
+        }
+      ],
+      "Returns": [
+  
+      ],
+      "TotalDiscount": 193,
+      "TotalServiceCharge": 0,
+      "ServiceChargeValue": 0,
+      "ServiceChargeType": "Flat",
+      "TotalAIT": 11,
+      "AgentExtraFair": 0,
+      "SubAgentExtraFair": 0,
+      "TotalMarkup": 0,
+      "CampaignDiscount": null,
+      "CampaignBank": null,
+      "CampaignMaxDiscount": null,
+      "DepositTotalPrice": 0,
+      "OnlineTotalPrice": 0,
+      "MatchingData": null,
+      "MetaKey": null,
+      "ApiName": null,
+      "IsToggleBrandedFare": false,
+      "MatchingResults": null,
+      "BrandedFareInfoes": [
+  
+      ],
+      "AirPricingSolution_Key": "0-7",
+      "TotalPrice": 3513,
+      "BasePrice": 2777,
+      "AIT": 0,
+      "APICurrencyType": "BDT",
+      "PassengerType": null,
+      "Adults": 1,
+      "Childs": 0,
+      "Infants": 0,
+      "PlatingCarrier": "BG",
+      "PlatingCarrierName": "Biman Bangladesh Airlines",
+      "IsRefundable": true,
+      "IsBookable": true,
+      "IsTaxBreakdownAvailable": true,
+      "TotalTax": 725,
+      "LatestTicketingTime": "25/01/2023",
+      "ChangePenalties": null,
+      "CancelPenalties": null,
+      "FareType": "PublicFare",
+      "TripType": "OneWay",
+      "SegmentCode": "RkxZMjc4Q0Y1MUI4MjM2NjM4MTAxNTgyMzEzMDMwNjAyX1NCUl82MzgxMDE1ODIzMjI3NzA3MDl8MC03fElHVEFDQlNDMTU=",
+      "HasOwnID": true,
+      "OwnIDRef": "IGTACBSC15",
+      "ApiTotalDiscount": 0,
+      "IGXKey": "FLY278CF51B8236638101582313030602",
+      "AdditionalText": null,
+      "GDSCode": "1S",
+      "IsBrandedFare": false,
+      "IsPassportAndVisaRequired": false
+    },
+    {
+      "TotalTravelTimes": [
+        {
+          "TotalLayoverTime": "0",
+          "TravelType": "onward",
+          "TotalTravelDuration": "55m",
+          "NoOfStop": 0,
+          "SegmentCount": 0
+        }
+      ],
+      "FareBreakdown": [
+        {
+          "TaxesBreakdown": [
+            {
+              "Category": "BD",
+              "Amount": 25
+            },
+            {
+              "Category": "OW",
+              "Amount": 500
+            },
+            {
+              "Category": "E5",
+              "Amount": 30
+            },
+            {
+              "Category": "P7",
+              "Amount": 100
+            },
+            {
+              "Category": "P8",
+              "Amount": 70
+            }
+          ],
+          "Discount": 208,
+          "MarkupAmount": 0,
+          "ServiceCharge": 0,
+          "ReIssueCharge": null,
+          "IsMaxChildAge": null,
+          "PassengerType": "ADT",
+          "TotalFare": 3487,
+          "NoOfPassenger": 1,
+          "BaseFare": 2762,
+          "TotalTax": 725,
+          "Surcharges": 0,
+          "ApiDiscount": 0,
+          "Fees": 0,
+          "AIT": 11
+        }
+      ],
+      "Onwards": [
+        {
+          "OriginAirPortName": "Hazrat Shahjalal International Airport,Dhaka,Bangladesh",
+          "DestinationAirPortName": "Shah Amanat International Airport",
+          "GridRatio": "12",
+          "LayoverGridRatio": null,
+          "LayoverTime": null,
+          "AirSegment_Key": null,
+          "Group": 0,
+          "Carrier": "VQ",
+          "CarrierName": "Novo Air",
+          "FlightNumber": "901",
+          "Origin": "DAC",
+          "Destination": "CGP",
+          "DepartureTime": "2023-02-16T07:45:00",
+          "ArrivalTime": "2023-02-16T08:40:00",
+          "TravelDuration": "55m",
+          "Distance": null,
+          "AvailabilitySource": null,
+          "OperatingCarrier": "VQ",
+          "OperatingCarrierName": "Novo Air",
+          "OperatingFlightNumber": "901",
+          "OriginTerminal": "",
+          "DestinationTerminal": "",
+          "BookingCode": "U",
+          "BookingCount": "0",
+          "CabinClass": "U",
+          "FareBasis": null,
+          "Currency": "BDT",
+          "AirBaggageAllowance": "20-KGS",
+          "Equipment": "ATR725",
+          "HiddenSegment": null
+        }
+      ],
+      "Returns": [
+  
+      ],
+      "TotalDiscount": 208,
+      "TotalServiceCharge": 0,
+      "ServiceChargeValue": 0,
+      "ServiceChargeType": "Flat",
+      "TotalAIT": 11,
+      "AgentExtraFair": 0,
+      "SubAgentExtraFair": 0,
+      "TotalMarkup": 0,
+      "CampaignDiscount": null,
+      "CampaignBank": null,
+      "CampaignMaxDiscount": null,
+      "DepositTotalPrice": 0,
+      "OnlineTotalPrice": 0,
+      "MatchingData": null,
+      "MetaKey": null,
+      "ApiName": null,
+      "IsToggleBrandedFare": false,
+      "MatchingResults": null,
+      "BrandedFareInfoes": [
+  
+      ],
+      "AirPricingSolution_Key": "MC0w",
+      "TotalPrice": 3498,
+      "BasePrice": 2762,
+      "AIT": 0,
+      "APICurrencyType": "BDT",
+      "PassengerType": "ADT",
+      "Adults": 1,
+      "Childs": 0,
+      "Infants": 0,
+      "PlatingCarrier": "VQ",
+      "PlatingCarrierName": "Novo Air",
+      "IsRefundable": true,
+      "IsBookable": true,
+      "IsTaxBreakdownAvailable": true,
+      "TotalTax": 725,
+      "LatestTicketingTime": "",
+      "ChangePenalties": null,
+      "CancelPenalties": null,
+      "FareType": "",
+      "TripType": "OneWay",
+      "SegmentCode": "RkxZMjc4Q0Y1MUI4MjM2NjM4MTAxNTgyMzEzMDMwNjAyX05vdm9BcGlfNjM4MTAxNTgyMzQ5MjQwNDg3fDAtMHxJR09BV0IzQzEz",
+      "HasOwnID": true,
+      "OwnIDRef": "IGOAWB3C13",
+      "ApiTotalDiscount": 0,
+      "IGXKey": "FLY278CF51B8236638101582313030602",
+      "AdditionalText": "",
+      "GDSCode": null,
+      "IsBrandedFare": false,
+      "IsPassportAndVisaRequired": false
+    },
+    {
+      "TotalTravelTimes": [
+        {
+          "TotalLayoverTime": "0",
+          "TravelType": "onward",
+          "TotalTravelDuration": "55m",
+          "NoOfStop": 0,
+          "SegmentCount": 0
+        }
+      ],
+      "FareBreakdown": [
+        {
+          "TaxesBreakdown": [
+            {
+              "Category": "BD",
+              "Amount": 25
+            },
+            {
+              "Category": "OW",
+              "Amount": 500
+            },
+            {
+              "Category": "E5",
+              "Amount": 30
+            },
+            {
+              "Category": "P7",
+              "Amount": 100
+            },
+            {
+              "Category": "P8",
+              "Amount": 70
+            }
+          ],
+          "Discount": 208,
+          "MarkupAmount": 0,
+          "ServiceCharge": 0,
+          "ReIssueCharge": null,
+          "IsMaxChildAge": null,
+          "PassengerType": "ADT",
+          "TotalFare": 3487,
+          "NoOfPassenger": 1,
+          "BaseFare": 2762,
+          "TotalTax": 725,
+          "Surcharges": 0,
+          "ApiDiscount": 0,
+          "Fees": 0,
+          "AIT": 11
+        }
+      ],
+      "Onwards": [
+        {
+          "OriginAirPortName": "Hazrat Shahjalal International Airport,Dhaka,Bangladesh",
+          "DestinationAirPortName": "Shah Amanat International Airport",
+          "GridRatio": "12",
+          "LayoverGridRatio": null,
+          "LayoverTime": null,
+          "AirSegment_Key": null,
+          "Group": 0,
+          "Carrier": "VQ",
+          "CarrierName": "Novo Air",
+          "FlightNumber": "909",
+          "Origin": "DAC",
+          "Destination": "CGP",
+          "DepartureTime": "2023-02-16T12:00:00",
+          "ArrivalTime": "2023-02-16T12:55:00",
+          "TravelDuration": "55m",
+          "Distance": null,
+          "AvailabilitySource": null,
+          "OperatingCarrier": "VQ",
+          "OperatingCarrierName": "Novo Air",
+          "OperatingFlightNumber": "909",
+          "OriginTerminal": "",
+          "DestinationTerminal": "",
+          "BookingCode": "U",
+          "BookingCount": "0",
+          "CabinClass": "U",
+          "FareBasis": null,
+          "Currency": "BDT",
+          "AirBaggageAllowance": "20-KGS",
+          "Equipment": "ATR725",
+          "HiddenSegment": null
+        }
+      ],
+      "Returns": [
+  
+      ],
+      "TotalDiscount": 208,
+      "TotalServiceCharge": 0,
+      "ServiceChargeValue": 0,
+      "ServiceChargeType": "Flat",
+      "TotalAIT": 11,
+      "AgentExtraFair": 0,
+      "SubAgentExtraFair": 0,
+      "TotalMarkup": 0,
+      "CampaignDiscount": null,
+      "CampaignBank": null,
+      "CampaignMaxDiscount": null,
+      "DepositTotalPrice": 0,
+      "OnlineTotalPrice": 0,
+      "MatchingData": null,
+      "MetaKey": null,
+      "ApiName": null,
+      "IsToggleBrandedFare": false,
+      "MatchingResults": null,
+      "BrandedFareInfoes": [
+  
+      ],
+      "AirPricingSolution_Key": "MC0x",
+      "TotalPrice": 3498,
+      "BasePrice": 2762,
+      "AIT": 0,
+      "APICurrencyType": "BDT",
+      "PassengerType": "ADT",
+      "Adults": 1,
+      "Childs": 0,
+      "Infants": 0,
+      "PlatingCarrier": "VQ",
+      "PlatingCarrierName": "Novo Air",
+      "IsRefundable": true,
+      "IsBookable": true,
+      "IsTaxBreakdownAvailable": true,
+      "TotalTax": 725,
+      "LatestTicketingTime": "",
+      "ChangePenalties": null,
+      "CancelPenalties": null,
+      "FareType": "",
+      "TripType": "OneWay",
+      "SegmentCode": "RkxZMjc4Q0Y1MUI4MjM2NjM4MTAxNTgyMzEzMDMwNjAyX05vdm9BcGlfNjM4MTAxNTgyMzQ5MjQwNDg3fDAtMXxJR09BV0IzQzEz",
+      "HasOwnID": true,
+      "OwnIDRef": "IGOAWB3C13",
+      "ApiTotalDiscount": 0,
+      "IGXKey": "FLY278CF51B8236638101582313030602",
+      "AdditionalText": "",
+      "GDSCode": null,
+      "IsBrandedFare": false,
+      "IsPassportAndVisaRequired": false
+    },
+    {
+      "TotalTravelTimes": [
+        {
+          "TotalLayoverTime": "0",
+          "TravelType": "onward",
+          "TotalTravelDuration": "55m",
+          "NoOfStop": 0,
+          "SegmentCount": 0
+        }
+      ],
+      "FareBreakdown": [
+        {
+          "TaxesBreakdown": [
+            {
+              "Category": "BD",
+              "Amount": 25
+            },
+            {
+              "Category": "OW",
+              "Amount": 500
+            },
+            {
+              "Category": "E5",
+              "Amount": 30
+            },
+            {
+              "Category": "P7",
+              "Amount": 100
+            },
+            {
+              "Category": "P8",
+              "Amount": 70
+            }
+          ],
+          "Discount": 208,
+          "MarkupAmount": 0,
+          "ServiceCharge": 0,
+          "ReIssueCharge": null,
+          "IsMaxChildAge": null,
+          "PassengerType": "ADT",
+          "TotalFare": 3487,
+          "NoOfPassenger": 1,
+          "BaseFare": 2762,
+          "TotalTax": 725,
+          "Surcharges": 0,
+          "ApiDiscount": 0,
+          "Fees": 0,
+          "AIT": 11
+        }
+      ],
+      "Onwards": [
+        {
+          "OriginAirPortName": "Hazrat Shahjalal International Airport,Dhaka,Bangladesh",
+          "DestinationAirPortName": "Shah Amanat International Airport",
+          "GridRatio": "12",
+          "LayoverGridRatio": null,
+          "LayoverTime": null,
+          "AirSegment_Key": null,
+          "Group": 0,
+          "Carrier": "VQ",
+          "CarrierName": "Novo Air",
+          "FlightNumber": "915",
+          "Origin": "DAC",
+          "Destination": "CGP",
+          "DepartureTime": "2023-02-16T17:50:00",
+          "ArrivalTime": "2023-02-16T18:45:00",
+          "TravelDuration": "55m",
+          "Distance": null,
+          "AvailabilitySource": null,
+          "OperatingCarrier": "VQ",
+          "OperatingCarrierName": "Novo Air",
+          "OperatingFlightNumber": "915",
+          "OriginTerminal": "",
+          "DestinationTerminal": "",
+          "BookingCode": "U",
+          "BookingCount": "0",
+          "CabinClass": "U",
+          "FareBasis": null,
+          "Currency": "BDT",
+          "AirBaggageAllowance": "20-KGS",
+          "Equipment": "ATR725",
+          "HiddenSegment": null
+        }
+      ],
+      "Returns": [
+  
+      ],
+      "TotalDiscount": 208,
+      "TotalServiceCharge": 0,
+      "ServiceChargeValue": 0,
+      "ServiceChargeType": "Flat",
+      "TotalAIT": 11,
+      "AgentExtraFair": 0,
+      "SubAgentExtraFair": 0,
+      "TotalMarkup": 0,
+      "CampaignDiscount": null,
+      "CampaignBank": null,
+      "CampaignMaxDiscount": null,
+      "DepositTotalPrice": 0,
+      "OnlineTotalPrice": 0,
+      "MatchingData": null,
+      "MetaKey": null,
+      "ApiName": null,
+      "IsToggleBrandedFare": false,
+      "MatchingResults": null,
+      "BrandedFareInfoes": [
+  
+      ],
+      "AirPricingSolution_Key": "MC0y",
+      "TotalPrice": 3498,
+      "BasePrice": 2762,
+      "AIT": 0,
+      "APICurrencyType": "BDT",
+      "PassengerType": "ADT",
+      "Adults": 1,
+      "Childs": 0,
+      "Infants": 0,
+      "PlatingCarrier": "VQ",
+      "PlatingCarrierName": "Novo Air",
+      "IsRefundable": true,
+      "IsBookable": true,
+      "IsTaxBreakdownAvailable": true,
+      "TotalTax": 725,
+      "LatestTicketingTime": "",
+      "ChangePenalties": null,
+      "CancelPenalties": null,
+      "FareType": "",
+      "TripType": "OneWay",
+      "SegmentCode": "RkxZMjc4Q0Y1MUI4MjM2NjM4MTAxNTgyMzEzMDMwNjAyX05vdm9BcGlfNjM4MTAxNTgyMzQ5MjQwNDg3fDAtMnxJR09BV0IzQzEz",
+      "HasOwnID": true,
+      "OwnIDRef": "IGOAWB3C13",
+      "ApiTotalDiscount": 0,
+      "IGXKey": "FLY278CF51B8236638101582313030602",
+      "AdditionalText": "",
+      "GDSCode": null,
+      "IsBrandedFare": false,
+      "IsPassportAndVisaRequired": false
+    },
+    {
+      "TotalTravelTimes": [
+        {
+          "TotalLayoverTime": "0",
+          "TravelType": "onward",
+          "TotalTravelDuration": "55m",
+          "NoOfStop": 0,
+          "SegmentCount": 0
+        }
+      ],
+      "FareBreakdown": [
+        {
+          "TaxesBreakdown": [
+            {
+              "Category": "BD",
+              "Amount": 25
+            },
+            {
+              "Category": "OW",
+              "Amount": 500
+            },
+            {
+              "Category": "E5",
+              "Amount": 30
+            },
+            {
+              "Category": "P7",
+              "Amount": 100
+            },
+            {
+              "Category": "P8",
+              "Amount": 70
+            }
+          ],
+          "Discount": 208,
+          "MarkupAmount": 0,
+          "ServiceCharge": 0,
+          "ReIssueCharge": null,
+          "IsMaxChildAge": null,
+          "PassengerType": "ADT",
+          "TotalFare": 3487,
+          "NoOfPassenger": 1,
+          "BaseFare": 2762,
+          "TotalTax": 725,
+          "Surcharges": 0,
+          "ApiDiscount": 0,
+          "Fees": 0,
+          "AIT": 11
+        }
+      ],
+      "Onwards": [
+        {
+          "OriginAirPortName": "Hazrat Shahjalal International Airport,Dhaka,Bangladesh",
+          "DestinationAirPortName": "Shah Amanat International Airport",
+          "GridRatio": "12",
+          "LayoverGridRatio": null,
+          "LayoverTime": null,
+          "AirSegment_Key": null,
+          "Group": 0,
+          "Carrier": "VQ",
+          "CarrierName": "Novo Air",
+          "FlightNumber": "917",
+          "Origin": "DAC",
+          "Destination": "CGP",
+          "DepartureTime": "2023-02-16T19:40:00",
+          "ArrivalTime": "2023-02-16T20:35:00",
+          "TravelDuration": "55m",
+          "Distance": null,
+          "AvailabilitySource": null,
+          "OperatingCarrier": "VQ",
+          "OperatingCarrierName": "Novo Air",
+          "OperatingFlightNumber": "917",
+          "OriginTerminal": "",
+          "DestinationTerminal": "",
+          "BookingCode": "U",
+          "BookingCount": "0",
+          "CabinClass": "U",
+          "FareBasis": null,
+          "Currency": "BDT",
+          "AirBaggageAllowance": "20-KGS",
+          "Equipment": "ATR725",
+          "HiddenSegment": null
+        }
+      ],
+      "Returns": [
+  
+      ],
+      "TotalDiscount": 208,
+      "TotalServiceCharge": 0,
+      "ServiceChargeValue": 0,
+      "ServiceChargeType": "Flat",
+      "TotalAIT": 11,
+      "AgentExtraFair": 0,
+      "SubAgentExtraFair": 0,
+      "TotalMarkup": 0,
+      "CampaignDiscount": null,
+      "CampaignBank": null,
+      "CampaignMaxDiscount": null,
+      "DepositTotalPrice": 0,
+      "OnlineTotalPrice": 0,
+      "MatchingData": null,
+      "MetaKey": null,
+      "ApiName": null,
+      "IsToggleBrandedFare": false,
+      "MatchingResults": null,
+      "BrandedFareInfoes": [
+  
+      ],
+      "AirPricingSolution_Key": "MC0z",
+      "TotalPrice": 3498,
+      "BasePrice": 2762,
+      "AIT": 0,
+      "APICurrencyType": "BDT",
+      "PassengerType": "ADT",
+      "Adults": 1,
+      "Childs": 0,
+      "Infants": 0,
+      "PlatingCarrier": "VQ",
+      "PlatingCarrierName": "Novo Air",
+      "IsRefundable": true,
+      "IsBookable": true,
+      "IsTaxBreakdownAvailable": true,
+      "TotalTax": 725,
+      "LatestTicketingTime": "",
+      "ChangePenalties": null,
+      "CancelPenalties": null,
+      "FareType": "",
+      "TripType": "OneWay",
+      "SegmentCode": "RkxZMjc4Q0Y1MUI4MjM2NjM4MTAxNTgyMzEzMDMwNjAyX05vdm9BcGlfNjM4MTAxNTgyMzQ5MjQwNDg3fDAtM3xJR09BV0IzQzEz",
+      "HasOwnID": true,
+      "OwnIDRef": "IGOAWB3C13",
+      "ApiTotalDiscount": 0,
+      "IGXKey": "FLY278CF51B8236638101582313030602",
+      "AdditionalText": "",
+      "GDSCode": null,
+      "IsBrandedFare": false,
+      "IsPassportAndVisaRequired": false
+    },
+    {
+      "TotalTravelTimes": [
+        {
+          "TotalLayoverTime": "0",
+          "TravelType": "onward",
+          "TotalTravelDuration": "55m",
+          "NoOfStop": 0,
+          "SegmentCount": 0
+        }
+      ],
+      "FareBreakdown": [
+        {
+          "TaxesBreakdown": [
+            {
+              "Category": "BD",
+              "Amount": 25
+            },
+            {
+              "Category": "OW",
+              "Amount": 500
+            },
+            {
+              "Category": "P7",
+              "Amount": 100
+            },
+            {
+              "Category": "E5",
+              "Amount": 30
+            },
+            {
+              "Category": "P8",
+              "Amount": 70
+            }
+          ],
+          "Discount": 208,
+          "MarkupAmount": 0,
+          "ServiceCharge": 0,
+          "ReIssueCharge": null,
+          "IsMaxChildAge": null,
+          "PassengerType": "ADT",
+          "TotalFare": 3487,
+          "NoOfPassenger": 1,
+          "BaseFare": 2762,
+          "TotalTax": 725,
+          "Surcharges": 0,
+          "ApiDiscount": 0,
+          "Fees": 0,
+          "AIT": 11
+        }
+      ],
+      "Onwards": [
+        {
+          "OriginAirPortName": "Hazrat Shahjalal International Airport,Dhaka,Bangladesh",
+          "DestinationAirPortName": "Shah Amanat International Airport",
+          "GridRatio": "12",
+          "LayoverGridRatio": null,
+          "LayoverTime": null,
+          "AirSegment_Key": null,
+          "Group": 0,
+          "Carrier": "BS",
+          "CarrierName": "US-Bangla Airlines",
+          "FlightNumber": "101",
+          "Origin": "DAC",
+          "Destination": "CGP",
+          "DepartureTime": "2023-02-16T07:15:00",
+          "ArrivalTime": "2023-02-16T08:10:00",
+          "TravelDuration": "55m",
+          "Distance": null,
+          "AvailabilitySource": null,
+          "OperatingCarrier": "BS",
+          "OperatingCarrierName": "US-Bangla Airlines",
+          "OperatingFlightNumber": "101",
+          "OriginTerminal": null,
+          "DestinationTerminal": null,
+          "BookingCode": "K",
+          "BookingCount": "9",
+          "CabinClass": "Y",
+          "FareBasis": "KDOM6M",
+          "Currency": "BDT",
+          "AirBaggageAllowance": "20Kg",
+          "Equipment": "ATR 72 - 600",
+          "HiddenSegment": null
+        }
+      ],
+      "Returns": [
+  
+      ],
+      "TotalDiscount": 208,
+      "TotalServiceCharge": 0,
+      "ServiceChargeValue": 0,
+      "ServiceChargeType": "Flat",
+      "TotalAIT": 11,
+      "AgentExtraFair": 0,
+      "SubAgentExtraFair": 0,
+      "TotalMarkup": 0,
+      "CampaignDiscount": null,
+      "CampaignBank": null,
+      "CampaignMaxDiscount": null,
+      "DepositTotalPrice": 0,
+      "OnlineTotalPrice": 0,
+      "MatchingData": null,
+      "MetaKey": null,
+      "ApiName": null,
+      "IsToggleBrandedFare": false,
+      "MatchingResults": null,
+      "BrandedFareInfoes": [
+  
+      ],
+      "AirPricingSolution_Key": "SXRpbl8w",
+      "TotalPrice": 3498,
+      "BasePrice": 2762,
+      "AIT": 0,
+      "APICurrencyType": "BDT",
+      "PassengerType": "ADT",
+      "Adults": 1,
+      "Childs": 0,
+      "Infants": 0,
+      "PlatingCarrier": "BS",
+      "PlatingCarrierName": "US-Bangla Airlines",
+      "IsRefundable": true,
+      "IsBookable": true,
+      "IsTaxBreakdownAvailable": true,
+      "TotalTax": 725,
+      "LatestTicketingTime": null,
+      "ChangePenalties": null,
+      "CancelPenalties": null,
+      "FareType": null,
+      "TripType": "OneWay",
+      "SegmentCode": "RkxZMjc4Q0Y1MUI4MjM2NjM4MTAxNTgyMzEzMDMwNjAyX1VTQl82MzgxMDE1ODIzMjI1NTA2NzN8MCwxMDEsfElHVkFUQkNDMDg=",
+      "HasOwnID": true,
+      "OwnIDRef": "IGVATBCC08",
+      "ApiTotalDiscount": 0,
+      "IGXKey": "FLY278CF51B8236638101582313030602",
+      "AdditionalText": null,
+      "GDSCode": null,
+      "IsBrandedFare": false,
+      "IsPassportAndVisaRequired": false
+    },
+    {
+      "TotalTravelTimes": [
+        {
+          "TotalLayoverTime": "0",
+          "TravelType": "onward",
+          "TotalTravelDuration": "55m",
+          "NoOfStop": 0,
+          "SegmentCount": 0
+        }
+      ],
+      "FareBreakdown": [
+        {
+          "TaxesBreakdown": [
+            {
+              "Category": "BD",
+              "Amount": 25
+            },
+            {
+              "Category": "OW",
+              "Amount": 500
+            },
+            {
+              "Category": "P7",
+              "Amount": 100
+            },
+            {
+              "Category": "E5",
+              "Amount": 30
+            },
+            {
+              "Category": "P8",
+              "Amount": 70
+            }
+          ],
+          "Discount": 208,
+          "MarkupAmount": 0,
+          "ServiceCharge": 0,
+          "ReIssueCharge": null,
+          "IsMaxChildAge": null,
+          "PassengerType": "ADT",
+          "TotalFare": 3487,
+          "NoOfPassenger": 1,
+          "BaseFare": 2762,
+          "TotalTax": 725,
+          "Surcharges": 0,
+          "ApiDiscount": 0,
+          "Fees": 0,
+          "AIT": 11
+        }
+      ],
+      "Onwards": [
+        {
+          "OriginAirPortName": "Hazrat Shahjalal International Airport,Dhaka,Bangladesh",
+          "DestinationAirPortName": "Shah Amanat International Airport",
+          "GridRatio": "12",
+          "LayoverGridRatio": null,
+          "LayoverTime": null,
+          "AirSegment_Key": null,
+          "Group": 0,
+          "Carrier": "BS",
+          "CarrierName": "US-Bangla Airlines",
+          "FlightNumber": "103",
+          "Origin": "DAC",
+          "Destination": "CGP",
+          "DepartureTime": "2023-02-16T08:15:00",
+          "ArrivalTime": "2023-02-16T09:10:00",
+          "TravelDuration": "55m",
+          "Distance": null,
+          "AvailabilitySource": null,
+          "OperatingCarrier": "BS",
+          "OperatingCarrierName": "US-Bangla Airlines",
+          "OperatingFlightNumber": "103",
+          "OriginTerminal": null,
+          "DestinationTerminal": null,
+          "BookingCode": "K",
+          "BookingCount": "9",
+          "CabinClass": "Y",
+          "FareBasis": "KDOM6M",
+          "Currency": "BDT",
+          "AirBaggageAllowance": "20Kg",
+          "Equipment": "ATR 72 - 600",
+          "HiddenSegment": null
+        }
+      ],
+      "Returns": [
+  
+      ],
+      "TotalDiscount": 208,
+      "TotalServiceCharge": 0,
+      "ServiceChargeValue": 0,
+      "ServiceChargeType": "Flat",
+      "TotalAIT": 11,
+      "AgentExtraFair": 0,
+      "SubAgentExtraFair": 0,
+      "TotalMarkup": 0,
+      "CampaignDiscount": null,
+      "CampaignBank": null,
+      "CampaignMaxDiscount": null,
+      "DepositTotalPrice": 0,
+      "OnlineTotalPrice": 0,
+      "MatchingData": null,
+      "MetaKey": null,
+      "ApiName": null,
+      "IsToggleBrandedFare": false,
+      "MatchingResults": null,
+      "BrandedFareInfoes": [
+  
+      ],
+      "AirPricingSolution_Key": "SXRpbl8x",
+      "TotalPrice": 3498,
+      "BasePrice": 2762,
+      "AIT": 0,
+      "APICurrencyType": "BDT",
+      "PassengerType": "ADT",
+      "Adults": 1,
+      "Childs": 0,
+      "Infants": 0,
+      "PlatingCarrier": "BS",
+      "PlatingCarrierName": "US-Bangla Airlines",
+      "IsRefundable": true,
+      "IsBookable": true,
+      "IsTaxBreakdownAvailable": true,
+      "TotalTax": 725,
+      "LatestTicketingTime": null,
+      "ChangePenalties": null,
+      "CancelPenalties": null,
+      "FareType": null,
+      "TripType": "OneWay",
+      "SegmentCode": "RkxZMjc4Q0Y1MUI4MjM2NjM4MTAxNTgyMzEzMDMwNjAyX1VTQl82MzgxMDE1ODIzMjI1NTA2NzN8MSwxMDMsfElHVkFUQkNDMDg=",
+      "HasOwnID": true,
+      "OwnIDRef": "IGVATBCC08",
+      "ApiTotalDiscount": 0,
+      "IGXKey": "FLY278CF51B8236638101582313030602",
+      "AdditionalText": null,
+      "GDSCode": null,
+      "IsBrandedFare": false,
+      "IsPassportAndVisaRequired": false
+    },
+    {
+      "TotalTravelTimes": [
+        {
+          "TotalLayoverTime": "0",
+          "TravelType": "onward",
+          "TotalTravelDuration": "55m",
+          "NoOfStop": 0,
+          "SegmentCount": 0
+        }
+      ],
+      "FareBreakdown": [
+        {
+          "TaxesBreakdown": [
+            {
+              "Category": "BD",
+              "Amount": 25
+            },
+            {
+              "Category": "OW",
+              "Amount": 500
+            },
+            {
+              "Category": "P7",
+              "Amount": 100
+            },
+            {
+              "Category": "E5",
+              "Amount": 30
+            },
+            {
+              "Category": "P8",
+              "Amount": 70
+            }
+          ],
+          "Discount": 208,
+          "MarkupAmount": 0,
+          "ServiceCharge": 0,
+          "ReIssueCharge": null,
+          "IsMaxChildAge": null,
+          "PassengerType": "ADT",
+          "TotalFare": 3487,
+          "NoOfPassenger": 1,
+          "BaseFare": 2762,
+          "TotalTax": 725,
+          "Surcharges": 0,
+          "ApiDiscount": 0,
+          "Fees": 0,
+          "AIT": 11
+        }
+      ],
+      "Onwards": [
+        {
+          "OriginAirPortName": "Hazrat Shahjalal International Airport,Dhaka,Bangladesh",
+          "DestinationAirPortName": "Shah Amanat International Airport",
+          "GridRatio": "12",
+          "LayoverGridRatio": null,
+          "LayoverTime": null,
+          "AirSegment_Key": null,
+          "Group": 0,
+          "Carrier": "BS",
+          "CarrierName": "US-Bangla Airlines",
+          "FlightNumber": "109",
+          "Origin": "DAC",
+          "Destination": "CGP",
+          "DepartureTime": "2023-02-16T12:15:00",
+          "ArrivalTime": "2023-02-16T13:10:00",
+          "TravelDuration": "55m",
+          "Distance": null,
+          "AvailabilitySource": null,
+          "OperatingCarrier": "BS",
+          "OperatingCarrierName": "US-Bangla Airlines",
+          "OperatingFlightNumber": "109",
+          "OriginTerminal": null,
+          "DestinationTerminal": null,
+          "BookingCode": "K",
+          "BookingCount": "9",
+          "CabinClass": "Y",
+          "FareBasis": "KDOM6M",
+          "Currency": "BDT",
+          "AirBaggageAllowance": "20Kg",
+          "Equipment": "ATR 72 - 600",
+          "HiddenSegment": null
+        }
+      ],
+      "Returns": [
+  
+      ],
+      "TotalDiscount": 208,
+      "TotalServiceCharge": 0,
+      "ServiceChargeValue": 0,
+      "ServiceChargeType": "Flat",
+      "TotalAIT": 11,
+      "AgentExtraFair": 0,
+      "SubAgentExtraFair": 0,
+      "TotalMarkup": 0,
+      "CampaignDiscount": null,
+      "CampaignBank": null,
+      "CampaignMaxDiscount": null,
+      "DepositTotalPrice": 0,
+      "OnlineTotalPrice": 0,
+      "MatchingData": null,
+      "MetaKey": null,
+      "ApiName": null,
+      "IsToggleBrandedFare": false,
+      "MatchingResults": null,
+      "BrandedFareInfoes": [
+  
+      ],
+      "AirPricingSolution_Key": "SXRpbl8z",
+      "TotalPrice": 3498,
+      "BasePrice": 2762,
+      "AIT": 0,
+      "APICurrencyType": "BDT",
+      "PassengerType": "ADT",
+      "Adults": 1,
+      "Childs": 0,
+      "Infants": 0,
+      "PlatingCarrier": "BS",
+      "PlatingCarrierName": "US-Bangla Airlines",
+      "IsRefundable": true,
+      "IsBookable": true,
+      "IsTaxBreakdownAvailable": true,
+      "TotalTax": 725,
+      "LatestTicketingTime": null,
+      "ChangePenalties": null,
+      "CancelPenalties": null,
+      "FareType": null,
+      "TripType": "OneWay",
+      "SegmentCode": "RkxZMjc4Q0Y1MUI4MjM2NjM4MTAxNTgyMzEzMDMwNjAyX1VTQl82MzgxMDE1ODIzMjI1NTA2NzN8MywxMDksfElHVkFUQkNDMDg=",
+      "HasOwnID": true,
+      "OwnIDRef": "IGVATBCC08",
+      "ApiTotalDiscount": 0,
+      "IGXKey": "FLY278CF51B8236638101582313030602",
+      "AdditionalText": null,
+      "GDSCode": null,
+      "IsBrandedFare": false,
+      "IsPassportAndVisaRequired": false
+    },
+    {
+      "TotalTravelTimes": [
+        {
+          "TotalLayoverTime": "0",
+          "TravelType": "onward",
+          "TotalTravelDuration": "55m",
+          "NoOfStop": 0,
+          "SegmentCount": 0
+        }
+      ],
+      "FareBreakdown": [
+        {
+          "TaxesBreakdown": [
+            {
+              "Category": "BD",
+              "Amount": 25
+            },
+            {
+              "Category": "OW",
+              "Amount": 500
+            },
+            {
+              "Category": "P7",
+              "Amount": 100
+            },
+            {
+              "Category": "E5",
+              "Amount": 30
+            },
+            {
+              "Category": "P8",
+              "Amount": 70
+            }
+          ],
+          "Discount": 208,
+          "MarkupAmount": 0,
+          "ServiceCharge": 0,
+          "ReIssueCharge": null,
+          "IsMaxChildAge": null,
+          "PassengerType": "ADT",
+          "TotalFare": 3487,
+          "NoOfPassenger": 1,
+          "BaseFare": 2762,
+          "TotalTax": 725,
+          "Surcharges": 0,
+          "ApiDiscount": 0,
+          "Fees": 0,
+          "AIT": 11
+        }
+      ],
+      "Onwards": [
+        {
+          "OriginAirPortName": "Hazrat Shahjalal International Airport,Dhaka,Bangladesh",
+          "DestinationAirPortName": "Shah Amanat International Airport",
+          "GridRatio": "12",
+          "LayoverGridRatio": null,
+          "LayoverTime": null,
+          "AirSegment_Key": null,
+          "Group": 0,
+          "Carrier": "BS",
+          "CarrierName": "US-Bangla Airlines",
+          "FlightNumber": "115",
+          "Origin": "DAC",
+          "Destination": "CGP",
+          "DepartureTime": "2023-02-16T17:30:00",
+          "ArrivalTime": "2023-02-16T18:25:00",
+          "TravelDuration": "55m",
+          "Distance": null,
+          "AvailabilitySource": null,
+          "OperatingCarrier": "BS",
+          "OperatingCarrierName": "US-Bangla Airlines",
+          "OperatingFlightNumber": "115",
+          "OriginTerminal": null,
+          "DestinationTerminal": null,
+          "BookingCode": "K",
+          "BookingCount": "9",
+          "CabinClass": "Y",
+          "FareBasis": "KDOM6M",
+          "Currency": "BDT",
+          "AirBaggageAllowance": "20Kg",
+          "Equipment": "ATR 72 - 600",
+          "HiddenSegment": null
+        }
+      ],
+      "Returns": [
+  
+      ],
+      "TotalDiscount": 208,
+      "TotalServiceCharge": 0,
+      "ServiceChargeValue": 0,
+      "ServiceChargeType": "Flat",
+      "TotalAIT": 11,
+      "AgentExtraFair": 0,
+      "SubAgentExtraFair": 0,
+      "TotalMarkup": 0,
+      "CampaignDiscount": null,
+      "CampaignBank": null,
+      "CampaignMaxDiscount": null,
+      "DepositTotalPrice": 0,
+      "OnlineTotalPrice": 0,
+      "MatchingData": null,
+      "MetaKey": null,
+      "ApiName": null,
+      "IsToggleBrandedFare": false,
+      "MatchingResults": null,
+      "BrandedFareInfoes": [
+  
+      ],
+      "AirPricingSolution_Key": "SXRpbl81",
+      "TotalPrice": 3498,
+      "BasePrice": 2762,
+      "AIT": 0,
+      "APICurrencyType": "BDT",
+      "PassengerType": "ADT",
+      "Adults": 1,
+      "Childs": 0,
+      "Infants": 0,
+      "PlatingCarrier": "BS",
+      "PlatingCarrierName": "US-Bangla Airlines",
+      "IsRefundable": true,
+      "IsBookable": true,
+      "IsTaxBreakdownAvailable": true,
+      "TotalTax": 725,
+      "LatestTicketingTime": null,
+      "ChangePenalties": null,
+      "CancelPenalties": null,
+      "FareType": null,
+      "TripType": "OneWay",
+      "SegmentCode": "RkxZMjc4Q0Y1MUI4MjM2NjM4MTAxNTgyMzEzMDMwNjAyX1VTQl82MzgxMDE1ODIzMjI1NTA2NzN8NSwxMTUsfElHVkFUQkNDMDg=",
+      "HasOwnID": true,
+      "OwnIDRef": "IGVATBCC08",
+      "ApiTotalDiscount": 0,
+      "IGXKey": "FLY278CF51B8236638101582313030602",
+      "AdditionalText": null,
+      "GDSCode": null,
+      "IsBrandedFare": false,
+      "IsPassportAndVisaRequired": false
+    },
+    {
+      "TotalTravelTimes": [
+        {
+          "TotalLayoverTime": "0",
+          "TravelType": "onward",
+          "TotalTravelDuration": "55m",
+          "NoOfStop": 0,
+          "SegmentCount": 0
+        }
+      ],
+      "FareBreakdown": [
+        {
+          "TaxesBreakdown": [
+            {
+              "Category": "BD",
+              "Amount": 25
+            },
+            {
+              "Category": "OW",
+              "Amount": 500
+            },
+            {
+              "Category": "P7",
+              "Amount": 100
+            },
+            {
+              "Category": "E5",
+              "Amount": 30
+            },
+            {
+              "Category": "P8",
+              "Amount": 70
+            }
+          ],
+          "Discount": 208,
+          "MarkupAmount": 0,
+          "ServiceCharge": 0,
+          "ReIssueCharge": null,
+          "IsMaxChildAge": null,
+          "PassengerType": "ADT",
+          "TotalFare": 3487,
+          "NoOfPassenger": 1,
+          "BaseFare": 2762,
+          "TotalTax": 725,
+          "Surcharges": 0,
+          "ApiDiscount": 0,
+          "Fees": 0,
+          "AIT": 11
+        }
+      ],
+      "Onwards": [
+        {
+          "OriginAirPortName": "Hazrat Shahjalal International Airport,Dhaka,Bangladesh",
+          "DestinationAirPortName": "Shah Amanat International Airport",
+          "GridRatio": "12",
+          "LayoverGridRatio": null,
+          "LayoverTime": null,
+          "AirSegment_Key": null,
+          "Group": 0,
+          "Carrier": "BS",
+          "CarrierName": "US-Bangla Airlines",
+          "FlightNumber": "119",
+          "Origin": "DAC",
+          "Destination": "CGP",
+          "DepartureTime": "2023-02-16T20:00:00",
+          "ArrivalTime": "2023-02-16T20:55:00",
+          "TravelDuration": "55m",
+          "Distance": null,
+          "AvailabilitySource": null,
+          "OperatingCarrier": "BS",
+          "OperatingCarrierName": "US-Bangla Airlines",
+          "OperatingFlightNumber": "119",
+          "OriginTerminal": null,
+          "DestinationTerminal": null,
+          "BookingCode": "K",
+          "BookingCount": "9",
+          "CabinClass": "Y",
+          "FareBasis": "KDOM6M",
+          "Currency": "BDT",
+          "AirBaggageAllowance": "20Kg",
+          "Equipment": "ATR 72 - 600",
+          "HiddenSegment": null
+        }
+      ],
+      "Returns": [
+  
+      ],
+      "TotalDiscount": 208,
+      "TotalServiceCharge": 0,
+      "ServiceChargeValue": 0,
+      "ServiceChargeType": "Flat",
+      "TotalAIT": 11,
+      "AgentExtraFair": 0,
+      "SubAgentExtraFair": 0,
+      "TotalMarkup": 0,
+      "CampaignDiscount": null,
+      "CampaignBank": null,
+      "CampaignMaxDiscount": null,
+      "DepositTotalPrice": 0,
+      "OnlineTotalPrice": 0,
+      "MatchingData": null,
+      "MetaKey": null,
+      "ApiName": null,
+      "IsToggleBrandedFare": false,
+      "MatchingResults": null,
+      "BrandedFareInfoes": [
+  
+      ],
+      "AirPricingSolution_Key": "SXRpbl83",
+      "TotalPrice": 3498,
+      "BasePrice": 2762,
+      "AIT": 0,
+      "APICurrencyType": "BDT",
+      "PassengerType": "ADT",
+      "Adults": 1,
+      "Childs": 0,
+      "Infants": 0,
+      "PlatingCarrier": "BS",
+      "PlatingCarrierName": "US-Bangla Airlines",
+      "IsRefundable": true,
+      "IsBookable": true,
+      "IsTaxBreakdownAvailable": true,
+      "TotalTax": 725,
+      "LatestTicketingTime": null,
+      "ChangePenalties": null,
+      "CancelPenalties": null,
+      "FareType": null,
+      "TripType": "OneWay",
+      "SegmentCode": "RkxZMjc4Q0Y1MUI4MjM2NjM4MTAxNTgyMzEzMDMwNjAyX1VTQl82MzgxMDE1ODIzMjI1NTA2NzN8NywxMTksfElHVkFUQkNDMDg=",
+      "HasOwnID": true,
+      "OwnIDRef": "IGVATBCC08",
+      "ApiTotalDiscount": 0,
+      "IGXKey": "FLY278CF51B8236638101582313030602",
+      "AdditionalText": null,
+      "GDSCode": null,
+      "IsBrandedFare": false,
+      "IsPassportAndVisaRequired": false
+    },
+    {
+      "TotalTravelTimes": [
+        {
+          "TotalLayoverTime": "0",
+          "TravelType": "onward",
+          "TotalTravelDuration": "55m",
+          "NoOfStop": 0,
+          "SegmentCount": 0
+        }
+      ],
+      "FareBreakdown": [
+        {
+          "TaxesBreakdown": [
+            {
+              "Category": "BD",
+              "Amount": 25
+            },
+            {
+              "Category": "OW",
+              "Amount": 500
+            },
+            {
+              "Category": "P7",
+              "Amount": 100
+            },
+            {
+              "Category": "P8",
+              "Amount": 70
+            },
+            {
+              "Category": "E5",
+              "Amount": 30
+            }
+          ],
+          "Discount": 208,
+          "MarkupAmount": 0,
+          "ServiceCharge": 0,
+          "ReIssueCharge": null,
+          "IsMaxChildAge": null,
+          "PassengerType": "ADT",
+          "TotalFare": 3487,
+          "NoOfPassenger": 1,
+          "BaseFare": 2762,
+          "TotalTax": 725,
+          "Surcharges": 0,
+          "ApiDiscount": 0,
+          "Fees": 0,
+          "AIT": 11
+        }
+      ],
+      "Onwards": [
+        {
+          "OriginAirPortName": "Hazrat Shahjalal International Airport,Dhaka,Bangladesh",
+          "DestinationAirPortName": "Shah Amanat International Airport",
+          "GridRatio": "12",
+          "LayoverGridRatio": null,
+          "LayoverTime": null,
+          "AirSegment_Key": null,
+          "Group": 0,
+          "Carrier": "2A",
+          "CarrierName": "Air Astra",
+          "FlightNumber": "411",
+          "Origin": "DAC",
+          "Destination": "CGP",
+          "DepartureTime": "2023-02-16T07:45:00",
+          "ArrivalTime": "2023-02-16T08:40:00",
+          "TravelDuration": "55m",
+          "Distance": null,
+          "AvailabilitySource": null,
+          "OperatingCarrier": "2A",
+          "OperatingCarrierName": "Air Astra",
+          "OperatingFlightNumber": "411",
+          "OriginTerminal": null,
+          "DestinationTerminal": null,
+          "BookingCode": "K",
+          "BookingCount": "9",
+          "CabinClass": "Y",
+          "FareBasis": "KDOW",
+          "Currency": "BDT",
+          "AirBaggageAllowance": "20Kg",
+          "Equipment": "ATR 72",
+          "HiddenSegment": null
+        }
+      ],
+      "Returns": [
+  
+      ],
+      "TotalDiscount": 208,
+      "TotalServiceCharge": 0,
+      "ServiceChargeValue": 0,
+      "ServiceChargeType": "Flat",
+      "TotalAIT": 11,
+      "AgentExtraFair": 0,
+      "SubAgentExtraFair": 0,
+      "TotalMarkup": 0,
+      "CampaignDiscount": null,
+      "CampaignBank": null,
+      "CampaignMaxDiscount": null,
+      "DepositTotalPrice": 0,
+      "OnlineTotalPrice": 0,
+      "MatchingData": null,
+      "MetaKey": null,
+      "ApiName": null,
+      "IsToggleBrandedFare": false,
+      "MatchingResults": null,
+      "BrandedFareInfoes": [
+  
+      ],
+      "AirPricingSolution_Key": "SXRpbl8w",
+      "TotalPrice": 3498,
+      "BasePrice": 2762,
+      "AIT": 0,
+      "APICurrencyType": "BDT",
+      "PassengerType": "ADT",
+      "Adults": 1,
+      "Childs": 0,
+      "Infants": 0,
+      "PlatingCarrier": "2A",
+      "PlatingCarrierName": "Air Astra",
+      "IsRefundable": true,
+      "IsBookable": true,
+      "IsTaxBreakdownAvailable": true,
+      "TotalTax": 725,
+      "LatestTicketingTime": null,
+      "ChangePenalties": null,
+      "CancelPenalties": null,
+      "FareType": null,
+      "TripType": "OneWay",
+      "SegmentCode": "RkxZMjc4Q0Y1MUI4MjM2NjM4MTAxNTgyMzEzMDMwNjAyX1VTQl82MzgxMDE1ODIzMjYwODA2Mjl8MCw0MTEsfElHVkFUQkNDMTI=",
+      "HasOwnID": true,
+      "OwnIDRef": "IGVATBCC12",
+      "ApiTotalDiscount": 0,
+      "IGXKey": "FLY278CF51B8236638101582313030602",
+      "AdditionalText": null,
+      "GDSCode": null,
+      "IsBrandedFare": false,
+      "IsPassportAndVisaRequired": false
+    },
+    {
+      "TotalTravelTimes": [
+        {
+          "TotalLayoverTime": "0",
+          "TravelType": "onward",
+          "TotalTravelDuration": "55m",
+          "NoOfStop": 0,
+          "SegmentCount": 0
+        }
+      ],
+      "FareBreakdown": [
+        {
+          "TaxesBreakdown": [
+            {
+              "Category": "BD",
+              "Amount": 25
+            },
+            {
+              "Category": "OW",
+              "Amount": 500
+            },
+            {
+              "Category": "P7",
+              "Amount": 100
+            },
+            {
+              "Category": "P8",
+              "Amount": 70
+            },
+            {
+              "Category": "E5",
+              "Amount": 30
+            }
+          ],
+          "Discount": 208,
+          "MarkupAmount": 0,
+          "ServiceCharge": 0,
+          "ReIssueCharge": null,
+          "IsMaxChildAge": null,
+          "PassengerType": "ADT",
+          "TotalFare": 3487,
+          "NoOfPassenger": 1,
+          "BaseFare": 2762,
+          "TotalTax": 725,
+          "Surcharges": 0,
+          "ApiDiscount": 0,
+          "Fees": 0,
+          "AIT": 11
+        }
+      ],
+      "Onwards": [
+        {
+          "OriginAirPortName": "Hazrat Shahjalal International Airport,Dhaka,Bangladesh",
+          "DestinationAirPortName": "Shah Amanat International Airport",
+          "GridRatio": "12",
+          "LayoverGridRatio": null,
+          "LayoverTime": null,
+          "AirSegment_Key": null,
+          "Group": 0,
+          "Carrier": "2A",
+          "CarrierName": "Air Astra",
+          "FlightNumber": "417",
+          "Origin": "DAC",
+          "Destination": "CGP",
+          "DepartureTime": "2023-02-16T16:45:00",
+          "ArrivalTime": "2023-02-16T17:40:00",
+          "TravelDuration": "55m",
+          "Distance": null,
+          "AvailabilitySource": null,
+          "OperatingCarrier": "2A",
+          "OperatingCarrierName": "Air Astra",
+          "OperatingFlightNumber": "417",
+          "OriginTerminal": null,
+          "DestinationTerminal": null,
+          "BookingCode": "K",
+          "BookingCount": "9",
+          "CabinClass": "Y",
+          "FareBasis": "KDOW",
+          "Currency": "BDT",
+          "AirBaggageAllowance": "20Kg",
+          "Equipment": "ATR 72",
+          "HiddenSegment": null
+        }
+      ],
+      "Returns": [
+  
+      ],
+      "TotalDiscount": 208,
+      "TotalServiceCharge": 0,
+      "ServiceChargeValue": 0,
+      "ServiceChargeType": "Flat",
+      "TotalAIT": 11,
+      "AgentExtraFair": 0,
+      "SubAgentExtraFair": 0,
+      "TotalMarkup": 0,
+      "CampaignDiscount": null,
+      "CampaignBank": null,
+      "CampaignMaxDiscount": null,
+      "DepositTotalPrice": 0,
+      "OnlineTotalPrice": 0,
+      "MatchingData": null,
+      "MetaKey": null,
+      "ApiName": null,
+      "IsToggleBrandedFare": false,
+      "MatchingResults": null,
+      "BrandedFareInfoes": [
+  
+      ],
+      "AirPricingSolution_Key": "SXRpbl8y",
+      "TotalPrice": 3498,
+      "BasePrice": 2762,
+      "AIT": 0,
+      "APICurrencyType": "BDT",
+      "PassengerType": "ADT",
+      "Adults": 1,
+      "Childs": 0,
+      "Infants": 0,
+      "PlatingCarrier": "2A",
+      "PlatingCarrierName": "Air Astra",
+      "IsRefundable": true,
+      "IsBookable": true,
+      "IsTaxBreakdownAvailable": true,
+      "TotalTax": 725,
+      "LatestTicketingTime": null,
+      "ChangePenalties": null,
+      "CancelPenalties": null,
+      "FareType": null,
+      "TripType": "OneWay",
+      "SegmentCode": "RkxZMjc4Q0Y1MUI4MjM2NjM4MTAxNTgyMzEzMDMwNjAyX1VTQl82MzgxMDE1ODIzMjYwODA2Mjl8Miw0MTcsfElHVkFUQkNDMTI=",
+      "HasOwnID": true,
+      "OwnIDRef": "IGVATBCC12",
+      "ApiTotalDiscount": 0,
+      "IGXKey": "FLY278CF51B8236638101582313030602",
+      "AdditionalText": null,
+      "GDSCode": null,
+      "IsBrandedFare": false,
+      "IsPassportAndVisaRequired": false
+    },
+    {
+      "TotalTravelTimes": [
+        {
+          "TotalLayoverTime": "0",
+          "TravelType": "onward",
+          "TotalTravelDuration": "55m",
+          "NoOfStop": 0,
+          "SegmentCount": 0
+        }
+      ],
+      "FareBreakdown": [
+        {
+          "TaxesBreakdown": [
+            {
+              "Category": "BD",
+              "Amount": 25
+            },
+            {
+              "Category": "OW",
+              "Amount": 500
+            },
+            {
+              "Category": "P7",
+              "Amount": 100
+            },
+            {
+              "Category": "P8",
+              "Amount": 70
+            },
+            {
+              "Category": "E5",
+              "Amount": 30
+            }
+          ],
+          "Discount": 208,
+          "MarkupAmount": 0,
+          "ServiceCharge": 0,
+          "ReIssueCharge": null,
+          "IsMaxChildAge": null,
+          "PassengerType": "ADT",
+          "TotalFare": 3487,
+          "NoOfPassenger": 1,
+          "BaseFare": 2762,
+          "TotalTax": 725,
+          "Surcharges": 0,
+          "ApiDiscount": 0,
+          "Fees": 0,
+          "AIT": 11
+        }
+      ],
+      "Onwards": [
+        {
+          "OriginAirPortName": "Hazrat Shahjalal International Airport,Dhaka,Bangladesh",
+          "DestinationAirPortName": "Shah Amanat International Airport",
+          "GridRatio": "12",
+          "LayoverGridRatio": null,
+          "LayoverTime": null,
+          "AirSegment_Key": null,
+          "Group": 0,
+          "Carrier": "2A",
+          "CarrierName": "Air Astra",
+          "FlightNumber": "419",
+          "Origin": "DAC",
+          "Destination": "CGP",
+          "DepartureTime": "2023-02-16T19:35:00",
+          "ArrivalTime": "2023-02-16T20:30:00",
+          "TravelDuration": "55m",
+          "Distance": null,
+          "AvailabilitySource": null,
+          "OperatingCarrier": "2A",
+          "OperatingCarrierName": "Air Astra",
+          "OperatingFlightNumber": "419",
+          "OriginTerminal": null,
+          "DestinationTerminal": null,
+          "BookingCode": "K",
+          "BookingCount": "9",
+          "CabinClass": "Y",
+          "FareBasis": "KDOW",
+          "Currency": "BDT",
+          "AirBaggageAllowance": "20Kg",
+          "Equipment": "ATR 72",
+          "HiddenSegment": null
+        }
+      ],
+      "Returns": [
+  
+      ],
+      "TotalDiscount": 208,
+      "TotalServiceCharge": 0,
+      "ServiceChargeValue": 0,
+      "ServiceChargeType": "Flat",
+      "TotalAIT": 11,
+      "AgentExtraFair": 0,
+      "SubAgentExtraFair": 0,
+      "TotalMarkup": 0,
+      "CampaignDiscount": null,
+      "CampaignBank": null,
+      "CampaignMaxDiscount": null,
+      "DepositTotalPrice": 0,
+      "OnlineTotalPrice": 0,
+      "MatchingData": null,
+      "MetaKey": null,
+      "ApiName": null,
+      "IsToggleBrandedFare": false,
+      "MatchingResults": null,
+      "BrandedFareInfoes": [
+  
+      ],
+      "AirPricingSolution_Key": "SXRpbl8z",
+      "TotalPrice": 3498,
+      "BasePrice": 2762,
+      "AIT": 0,
+      "APICurrencyType": "BDT",
+      "PassengerType": "ADT",
+      "Adults": 1,
+      "Childs": 0,
+      "Infants": 0,
+      "PlatingCarrier": "2A",
+      "PlatingCarrierName": "Air Astra",
+      "IsRefundable": true,
+      "IsBookable": true,
+      "IsTaxBreakdownAvailable": true,
+      "TotalTax": 725,
+      "LatestTicketingTime": null,
+      "ChangePenalties": null,
+      "CancelPenalties": null,
+      "FareType": null,
+      "TripType": "OneWay",
+      "SegmentCode": "RkxZMjc4Q0Y1MUI4MjM2NjM4MTAxNTgyMzEzMDMwNjAyX1VTQl82MzgxMDE1ODIzMjYwODA2Mjl8Myw0MTksfElHVkFUQkNDMTI=",
+      "HasOwnID": true,
+      "OwnIDRef": "IGVATBCC12",
+      "ApiTotalDiscount": 0,
+      "IGXKey": "FLY278CF51B8236638101582313030602",
+      "AdditionalText": null,
+      "GDSCode": null,
+      "IsBrandedFare": false,
+      "IsPassportAndVisaRequired": false
+    },
+    {
+      "TotalTravelTimes": [
+        {
+          "TotalLayoverTime": "0",
+          "TravelType": "onward",
+          "TotalTravelDuration": "55m",
+          "NoOfStop": 0,
+          "SegmentCount": 0
+        }
+      ],
+      "FareBreakdown": [
+        {
+          "TaxesBreakdown": [
+            {
+              "Category": "BD",
+              "Amount": 25
+            },
+            {
+              "Category": "OW",
+              "Amount": 500
+            },
+            {
+              "Category": "P7",
+              "Amount": 100
+            },
+            {
+              "Category": "E5",
+              "Amount": 30
+            },
+            {
+              "Category": "P8",
+              "Amount": 70
+            }
+          ],
+          "Discount": 229,
+          "MarkupAmount": 0,
+          "ServiceCharge": 0,
+          "ReIssueCharge": null,
+          "IsMaxChildAge": null,
+          "PassengerType": "ADT",
+          "TotalFare": 3770,
+          "NoOfPassenger": 1,
+          "BaseFare": 3045,
+          "TotalTax": 725,
+          "Surcharges": 0,
+          "ApiDiscount": 0,
+          "Fees": 0,
+          "AIT": 12
+        }
+      ],
+      "Onwards": [
+        {
+          "OriginAirPortName": "Hazrat Shahjalal International Airport,Dhaka,Bangladesh",
+          "DestinationAirPortName": "Shah Amanat International Airport",
+          "GridRatio": "12",
+          "LayoverGridRatio": null,
+          "LayoverTime": null,
+          "AirSegment_Key": null,
+          "Group": 0,
+          "Carrier": "BS",
+          "CarrierName": "US-Bangla Airlines",
+          "FlightNumber": "105",
+          "Origin": "DAC",
+          "Destination": "CGP",
+          "DepartureTime": "2023-02-16T09:45:00",
+          "ArrivalTime": "2023-02-16T10:40:00",
+          "TravelDuration": "55m",
+          "Distance": null,
+          "AvailabilitySource": null,
+          "OperatingCarrier": "BS",
+          "OperatingCarrierName": "US-Bangla Airlines",
+          "OperatingFlightNumber": "105",
+          "OriginTerminal": null,
+          "DestinationTerminal": null,
+          "BookingCode": "I",
+          "BookingCount": "9",
+          "CabinClass": "Y",
+          "FareBasis": "IDOM",
+          "Currency": "BDT",
+          "AirBaggageAllowance": "20Kg",
+          "Equipment": "ATR 72 - 600",
+          "HiddenSegment": null
+        }
+      ],
+      "Returns": [
+  
+      ],
+      "TotalDiscount": 229,
+      "TotalServiceCharge": 0,
+      "ServiceChargeValue": 0,
+      "ServiceChargeType": "Flat",
+      "TotalAIT": 12,
+      "AgentExtraFair": 0,
+      "SubAgentExtraFair": 0,
+      "TotalMarkup": 0,
+      "CampaignDiscount": null,
+      "CampaignBank": null,
+      "CampaignMaxDiscount": null,
+      "DepositTotalPrice": 0,
+      "OnlineTotalPrice": 0,
+      "MatchingData": null,
+      "MetaKey": null,
+      "ApiName": null,
+      "IsToggleBrandedFare": false,
+      "MatchingResults": null,
+      "BrandedFareInfoes": [
+  
+      ],
+      "AirPricingSolution_Key": "SXRpbl8y",
+      "TotalPrice": 3782,
+      "BasePrice": 3045,
+      "AIT": 0,
+      "APICurrencyType": "BDT",
+      "PassengerType": "ADT",
+      "Adults": 1,
+      "Childs": 0,
+      "Infants": 0,
+      "PlatingCarrier": "BS",
+      "PlatingCarrierName": "US-Bangla Airlines",
+      "IsRefundable": true,
+      "IsBookable": true,
+      "IsTaxBreakdownAvailable": true,
+      "TotalTax": 725,
+      "LatestTicketingTime": null,
+      "ChangePenalties": null,
+      "CancelPenalties": null,
+      "FareType": null,
+      "TripType": "OneWay",
+      "SegmentCode": "RkxZMjc4Q0Y1MUI4MjM2NjM4MTAxNTgyMzEzMDMwNjAyX1VTQl82MzgxMDE1ODIzMjI1NTA2NzN8MiwxMDUsfElHVkFUQkNDMDg=",
+      "HasOwnID": true,
+      "OwnIDRef": "IGVATBCC08",
+      "ApiTotalDiscount": 0,
+      "IGXKey": "FLY278CF51B8236638101582313030602",
+      "AdditionalText": null,
+      "GDSCode": null,
+      "IsBrandedFare": false,
+      "IsPassportAndVisaRequired": false
+    },
+    {
+      "TotalTravelTimes": [
+        {
+          "TotalLayoverTime": "0",
+          "TravelType": "onward",
+          "TotalTravelDuration": "55m",
+          "NoOfStop": 0,
+          "SegmentCount": 0
+        }
+      ],
+      "FareBreakdown": [
+        {
+          "TaxesBreakdown": [
+            {
+              "Category": "BD",
+              "Amount": 25
+            },
+            {
+              "Category": "OW",
+              "Amount": 500
+            },
+            {
+              "Category": "P7",
+              "Amount": 100
+            },
+            {
+              "Category": "E5",
+              "Amount": 30
+            },
+            {
+              "Category": "P8",
+              "Amount": 70
+            }
+          ],
+          "Discount": 229,
+          "MarkupAmount": 0,
+          "ServiceCharge": 0,
+          "ReIssueCharge": null,
+          "IsMaxChildAge": null,
+          "PassengerType": "ADT",
+          "TotalFare": 3770,
+          "NoOfPassenger": 1,
+          "BaseFare": 3045,
+          "TotalTax": 725,
+          "Surcharges": 0,
+          "ApiDiscount": 0,
+          "Fees": 0,
+          "AIT": 12
+        }
+      ],
+      "Onwards": [
+        {
+          "OriginAirPortName": "Hazrat Shahjalal International Airport,Dhaka,Bangladesh",
+          "DestinationAirPortName": "Shah Amanat International Airport",
+          "GridRatio": "12",
+          "LayoverGridRatio": null,
+          "LayoverTime": null,
+          "AirSegment_Key": null,
+          "Group": 0,
+          "Carrier": "BS",
+          "CarrierName": "US-Bangla Airlines",
+          "FlightNumber": "111",
+          "Origin": "DAC",
+          "Destination": "CGP",
+          "DepartureTime": "2023-02-16T15:00:00",
+          "ArrivalTime": "2023-02-16T15:55:00",
+          "TravelDuration": "55m",
+          "Distance": null,
+          "AvailabilitySource": null,
+          "OperatingCarrier": "BS",
+          "OperatingCarrierName": "US-Bangla Airlines",
+          "OperatingFlightNumber": "111",
+          "OriginTerminal": null,
+          "DestinationTerminal": null,
+          "BookingCode": "I",
+          "BookingCount": "9",
+          "CabinClass": "Y",
+          "FareBasis": "IDOM",
+          "Currency": "BDT",
+          "AirBaggageAllowance": "20Kg",
+          "Equipment": "ATR 72 - 600",
+          "HiddenSegment": null
+        }
+      ],
+      "Returns": [
+  
+      ],
+      "TotalDiscount": 229,
+      "TotalServiceCharge": 0,
+      "ServiceChargeValue": 0,
+      "ServiceChargeType": "Flat",
+      "TotalAIT": 12,
+      "AgentExtraFair": 0,
+      "SubAgentExtraFair": 0,
+      "TotalMarkup": 0,
+      "CampaignDiscount": null,
+      "CampaignBank": null,
+      "CampaignMaxDiscount": null,
+      "DepositTotalPrice": 0,
+      "OnlineTotalPrice": 0,
+      "MatchingData": null,
+      "MetaKey": null,
+      "ApiName": null,
+      "IsToggleBrandedFare": false,
+      "MatchingResults": null,
+      "BrandedFareInfoes": [
+  
+      ],
+      "AirPricingSolution_Key": "SXRpbl80",
+      "TotalPrice": 3782,
+      "BasePrice": 3045,
+      "AIT": 0,
+      "APICurrencyType": "BDT",
+      "PassengerType": "ADT",
+      "Adults": 1,
+      "Childs": 0,
+      "Infants": 0,
+      "PlatingCarrier": "BS",
+      "PlatingCarrierName": "US-Bangla Airlines",
+      "IsRefundable": true,
+      "IsBookable": true,
+      "IsTaxBreakdownAvailable": true,
+      "TotalTax": 725,
+      "LatestTicketingTime": null,
+      "ChangePenalties": null,
+      "CancelPenalties": null,
+      "FareType": null,
+      "TripType": "OneWay",
+      "SegmentCode": "RkxZMjc4Q0Y1MUI4MjM2NjM4MTAxNTgyMzEzMDMwNjAyX1VTQl82MzgxMDE1ODIzMjI1NTA2NzN8NCwxMTEsfElHVkFUQkNDMDg=",
+      "HasOwnID": true,
+      "OwnIDRef": "IGVATBCC08",
+      "ApiTotalDiscount": 0,
+      "IGXKey": "FLY278CF51B8236638101582313030602",
+      "AdditionalText": null,
+      "GDSCode": null,
+      "IsBrandedFare": false,
+      "IsPassportAndVisaRequired": false
+    },
+    {
+      "TotalTravelTimes": [
+        {
+          "TotalLayoverTime": "0",
+          "TravelType": "onward",
+          "TotalTravelDuration": "55m",
+          "NoOfStop": 0,
+          "SegmentCount": 0
+        }
+      ],
+      "FareBreakdown": [
+        {
+          "TaxesBreakdown": [
+            {
+              "Category": "BD",
+              "Amount": 25
+            },
+            {
+              "Category": "OW",
+              "Amount": 500
+            },
+            {
+              "Category": "P7",
+              "Amount": 100
+            },
+            {
+              "Category": "E5",
+              "Amount": 30
+            },
+            {
+              "Category": "P8",
+              "Amount": 70
+            }
+          ],
+          "Discount": 229,
+          "MarkupAmount": 0,
+          "ServiceCharge": 0,
+          "ReIssueCharge": null,
+          "IsMaxChildAge": null,
+          "PassengerType": "ADT",
+          "TotalFare": 3770,
+          "NoOfPassenger": 1,
+          "BaseFare": 3045,
+          "TotalTax": 725,
+          "Surcharges": 0,
+          "ApiDiscount": 0,
+          "Fees": 0,
+          "AIT": 12
+        }
+      ],
+      "Onwards": [
+        {
+          "OriginAirPortName": "Hazrat Shahjalal International Airport,Dhaka,Bangladesh",
+          "DestinationAirPortName": "Shah Amanat International Airport",
+          "GridRatio": "12",
+          "LayoverGridRatio": null,
+          "LayoverTime": null,
+          "AirSegment_Key": null,
+          "Group": 0,
+          "Carrier": "BS",
+          "CarrierName": "US-Bangla Airlines",
+          "FlightNumber": "117",
+          "Origin": "DAC",
+          "Destination": "CGP",
+          "DepartureTime": "2023-02-16T18:30:00",
+          "ArrivalTime": "2023-02-16T19:25:00",
+          "TravelDuration": "55m",
+          "Distance": null,
+          "AvailabilitySource": null,
+          "OperatingCarrier": "BS",
+          "OperatingCarrierName": "US-Bangla Airlines",
+          "OperatingFlightNumber": "117",
+          "OriginTerminal": null,
+          "DestinationTerminal": null,
+          "BookingCode": "I",
+          "BookingCount": "9",
+          "CabinClass": "Y",
+          "FareBasis": "IDOM",
+          "Currency": "BDT",
+          "AirBaggageAllowance": "20Kg",
+          "Equipment": "ATR 72 - 600",
+          "HiddenSegment": null
+        }
+      ],
+      "Returns": [
+  
+      ],
+      "TotalDiscount": 229,
+      "TotalServiceCharge": 0,
+      "ServiceChargeValue": 0,
+      "ServiceChargeType": "Flat",
+      "TotalAIT": 12,
+      "AgentExtraFair": 0,
+      "SubAgentExtraFair": 0,
+      "TotalMarkup": 0,
+      "CampaignDiscount": null,
+      "CampaignBank": null,
+      "CampaignMaxDiscount": null,
+      "DepositTotalPrice": 0,
+      "OnlineTotalPrice": 0,
+      "MatchingData": null,
+      "MetaKey": null,
+      "ApiName": null,
+      "IsToggleBrandedFare": false,
+      "MatchingResults": null,
+      "BrandedFareInfoes": [
+  
+      ],
+      "AirPricingSolution_Key": "SXRpbl82",
+      "TotalPrice": 3782,
+      "BasePrice": 3045,
+      "AIT": 0,
+      "APICurrencyType": "BDT",
+      "PassengerType": "ADT",
+      "Adults": 1,
+      "Childs": 0,
+      "Infants": 0,
+      "PlatingCarrier": "BS",
+      "PlatingCarrierName": "US-Bangla Airlines",
+      "IsRefundable": true,
+      "IsBookable": true,
+      "IsTaxBreakdownAvailable": true,
+      "TotalTax": 725,
+      "LatestTicketingTime": null,
+      "ChangePenalties": null,
+      "CancelPenalties": null,
+      "FareType": null,
+      "TripType": "OneWay",
+      "SegmentCode": "RkxZMjc4Q0Y1MUI4MjM2NjM4MTAxNTgyMzEzMDMwNjAyX1VTQl82MzgxMDE1ODIzMjI1NTA2NzN8NiwxMTcsfElHVkFUQkNDMDg=",
+      "HasOwnID": true,
+      "OwnIDRef": "IGVATBCC08",
+      "ApiTotalDiscount": 0,
+      "IGXKey": "FLY278CF51B8236638101582313030602",
+      "AdditionalText": null,
+      "GDSCode": null,
+      "IsBrandedFare": false,
+      "IsPassportAndVisaRequired": false
+    },
+    {
+      "TotalTravelTimes": [
+        {
+          "TotalLayoverTime": "0",
+          "TravelType": "onward",
+          "TotalTravelDuration": "55m",
+          "NoOfStop": 0,
+          "SegmentCount": 0
+        }
+      ],
+      "FareBreakdown": [
+        {
+          "TaxesBreakdown": [
+            {
+              "Category": "BD",
+              "Amount": 25
+            },
+            {
+              "Category": "OW",
+              "Amount": 500
+            },
+            {
+              "Category": "P7",
+              "Amount": 100
+            },
+            {
+              "Category": "P8",
+              "Amount": 70
+            },
+            {
+              "Category": "E5",
+              "Amount": 30
+            }
+          ],
+          "Discount": 243,
+          "MarkupAmount": 0,
+          "ServiceCharge": 0,
+          "ReIssueCharge": null,
+          "IsMaxChildAge": null,
+          "PassengerType": "ADT",
+          "TotalFare": 3957,
+          "NoOfPassenger": 1,
+          "BaseFare": 3232,
+          "TotalTax": 725,
+          "Surcharges": 0,
+          "ApiDiscount": 0,
+          "Fees": 0,
+          "AIT": 13
+        }
+      ],
+      "Onwards": [
+        {
+          "OriginAirPortName": "Hazrat Shahjalal International Airport,Dhaka,Bangladesh",
+          "DestinationAirPortName": "Shah Amanat International Airport",
+          "GridRatio": "12",
+          "LayoverGridRatio": null,
+          "LayoverTime": null,
+          "AirSegment_Key": null,
+          "Group": 0,
+          "Carrier": "2A",
+          "CarrierName": "Air Astra",
+          "FlightNumber": "415",
+          "Origin": "DAC",
+          "Destination": "CGP",
+          "DepartureTime": "2023-02-16T10:40:00",
+          "ArrivalTime": "2023-02-16T11:35:00",
+          "TravelDuration": "55m",
+          "Distance": null,
+          "AvailabilitySource": null,
+          "OperatingCarrier": "2A",
+          "OperatingCarrierName": "Air Astra",
+          "OperatingFlightNumber": "415",
+          "OriginTerminal": null,
+          "DestinationTerminal": null,
+          "BookingCode": "T",
+          "BookingCount": "9",
+          "CabinClass": "Y",
+          "FareBasis": "TDOW",
+          "Currency": "BDT",
+          "AirBaggageAllowance": "20Kg",
+          "Equipment": "ATR 72",
+          "HiddenSegment": null
+        }
+      ],
+      "Returns": [
+  
+      ],
+      "TotalDiscount": 243,
+      "TotalServiceCharge": 0,
+      "ServiceChargeValue": 0,
+      "ServiceChargeType": "Flat",
+      "TotalAIT": 13,
+      "AgentExtraFair": 0,
+      "SubAgentExtraFair": 0,
+      "TotalMarkup": 0,
+      "CampaignDiscount": null,
+      "CampaignBank": null,
+      "CampaignMaxDiscount": null,
+      "DepositTotalPrice": 0,
+      "OnlineTotalPrice": 0,
+      "MatchingData": null,
+      "MetaKey": null,
+      "ApiName": null,
+      "IsToggleBrandedFare": false,
+      "MatchingResults": null,
+      "BrandedFareInfoes": [
+  
+      ],
+      "AirPricingSolution_Key": "SXRpbl8x",
+      "TotalPrice": 3970,
+      "BasePrice": 3232,
+      "AIT": 0,
+      "APICurrencyType": "BDT",
+      "PassengerType": "ADT",
+      "Adults": 1,
+      "Childs": 0,
+      "Infants": 0,
+      "PlatingCarrier": "2A",
+      "PlatingCarrierName": "Air Astra",
+      "IsRefundable": true,
+      "IsBookable": true,
+      "IsTaxBreakdownAvailable": true,
+      "TotalTax": 725,
+      "LatestTicketingTime": null,
+      "ChangePenalties": null,
+      "CancelPenalties": null,
+      "FareType": null,
+      "TripType": "OneWay",
+      "SegmentCode": "RkxZMjc4Q0Y1MUI4MjM2NjM4MTAxNTgyMzEzMDMwNjAyX1VTQl82MzgxMDE1ODIzMjYwODA2Mjl8MSw0MTUsfElHVkFUQkNDMTI=",
+      "HasOwnID": true,
+      "OwnIDRef": "IGVATBCC12",
+      "ApiTotalDiscount": 0,
+      "IGXKey": "FLY278CF51B8236638101582313030602",
+      "AdditionalText": null,
+      "GDSCode": null,
+      "IsBrandedFare": false,
+      "IsPassportAndVisaRequired": false
+    }
+  ]
