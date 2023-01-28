@@ -1,18 +1,33 @@
 import { useQuery } from "@tanstack/react-query";
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./App.css";
 import FlightBookingCard from "./components/FlightBookingCard";
+import MultiRangeSlider from "./components/multiRangeSlider/MultiRangeSlider";
 
 function App() {
-  const { data: flightList = [] } = useQuery({
-    queryKey: ["flightList"],
-    queryFn: async () => {
-      const response = await fetch("http://localhost:5001/flightList");
-      const data = await response.json();
+  const [flightList, setFlightList] = useState([]);
+  const departTimes = [
+    "00:00 to 05:59",
+    "06:00 to 11:59",
+    "12:00 to 17:59",
+    "18:00 to 23:00",
+  ];
 
-      return data;
-    },
-  });
+  useEffect(() => {
+    fetch("http://localhost:5001/flightList")
+      .then((response) => response.json())
+      .then((data) => setFlightList(data));
+  }, []);
+
+  // const { data: flightList = [] } = useQuery({
+  //   queryKey: ["flightList"],
+  //   queryFn: async () => {
+  //     const response = await fetch("http://localhost:5001/flightList");
+  //     const data = await response.json();
+
+  //     return data;
+  //   },
+  // });
 
   const { data: airLines = [] } = useQuery({
     queryKey: ["airLines"],
@@ -23,8 +38,37 @@ function App() {
     },
   });
 
+  // airline filter
   const airLinesHandler = (event) => {
-    console.log(event.target.value);
+    setFlightList([]);
+    if (event.target.checked) {
+      fetch(`http://localhost:5001/airLines/${event.target.value}`)
+        .then((response) => response.json())
+        .then((data) => {
+          setFlightList(data);
+        });
+    }
+  };
+
+  //depart time filter
+  const departTimesHandler = (event) => {
+    setFlightList([]);
+    if (event.target.checked) {
+      fetch(`http://localhost:5001/departTimes/${event.target.value}`)
+        .then((response) => response.json())
+        .then((data) => {
+          setFlightList(data);
+        });
+    }
+  };
+
+  //price filter
+  const priceFilterHandler = (min, max) => {
+    const value = `${min},${max}`;
+    console.log(value);
+    fetch(`http://localhost:5001/priceFilter/${value}`)
+    .then((response) => response.json())
+    .then((data) =>  setFlightList(data));
   };
 
   return (
@@ -32,18 +76,18 @@ function App() {
       <section className="py-6 sm:py-12 bg-white text-gray-900">
         <div className="container p-6 mx-auto space-y-8">
           <div className="space-y-2 text-center">
-            <h2 className="text-3xl font-bold">Biman Bangladesh Air Tickets</h2>
+            <h2 className="text-3xl font-bold"> Air Tickets</h2>
             <p className="font-serif text-sm text-gray-400">
               Book Your Tickets Now!
             </p>
           </div>
           <div className="flex flex-col md:flex-row gap-5">
             <div>
-              <div class="w-full shadow p-5 rounded-lg bg-white">
-                <div class="relative">
-                  <div class="absolute flex items-center ml-2 h-full">
+              <div className="w-full shadow p-5 rounded-lg bg-white">
+                <div className="relative">
+                  <div className="absolute flex items-center ml-2 h-full">
                     <svg
-                      class="w-4 h-4 fill-current text-primary-gray-dark"
+                      className="w-4 h-4 fill-current text-primary-gray-dark"
                       viewBox="0 0 16 16"
                       fill="none"
                       xmlns="http://www.w3.org/2000/svg"
@@ -55,33 +99,59 @@ function App() {
                   <input
                     type="text"
                     placeholder="Search by listing, location, bedroom number..."
-                    class="px-8 py-3 w-full rounded-md bg-gray-100 border-transparent focus:border-gray-500 focus:bg-white focus:ring-0 text-sm"
+                    className="px-8 py-3 w-full rounded-md bg-gray-100 border-transparent focus:border-gray-500 focus:bg-white focus:ring-0 text-sm"
                   />
                 </div>
 
-                <div class="flex items-center justify-between mt-4">
-                  <p class="font-medium">Filters</p>
+                <div className="flex items-center justify-between mt-4">
+                  <p className="font-medium">Filters</p>
 
-                  <button class="px-4 py-2 bg-gray-100 hover:bg-gray-200 text-gray-800 text-sm font-medium rounded-md">
+                  <button className="px-4 py-2 bg-gray-100 hover:bg-gray-200 text-gray-800 text-sm font-medium rounded-md">
                     Reset Filter
                   </button>
                 </div>
 
                 <div>
                   <h2 className="text-md font-bold ">Airlines</h2>
-                  <div className="grid grid-cols-1 gap-4 ">
+                  <form className="grid grid-cols-1 gap-2 ">
                     {airLines.map((airLine, idx) => (
                       <div>
                         <input
-                          onChange={(e)=>airLinesHandler(e)}
+                          onChange={(e) => airLinesHandler(e)}
                           type="checkbox"
                           id={idx}
                           value={airLine}
                         />
-                        <label for={idx}> {airLine}</label>
+                        <label htmlFor={idx}> {airLine}</label>
                       </div>
                     ))}
-                  </div>
+                  </form>
+                </div>
+
+                <div className="my-3">
+                  <h2 className="text-md font-bold ">Depart Time</h2>
+                  <form className="grid grid-cols-1 gap-4 ">
+                    {departTimes.map((departTime, id) => (
+                      <div>
+                        <input
+                          onChange={(e) => departTimesHandler(e)}
+                          type="checkbox"
+                          id={id + 5}
+                          value={departTime}
+                        />
+                        <label htmlFor={id + 5}> {departTime}</label>
+                      </div>
+                    ))}
+                  </form>
+                </div>
+
+                <div className="my-3">
+                  <h2 className="text-md font-bold mb-8">Price Filter</h2>
+                  <MultiRangeSlider
+                    min={3359}
+                    max={5113}
+                    onChange={({ min, max }) => priceFilterHandler(min, max)}
+                  />
                 </div>
               </div>
             </div>
