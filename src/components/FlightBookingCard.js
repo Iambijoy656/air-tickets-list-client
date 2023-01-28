@@ -85,7 +85,7 @@ const FlightBookingCard = ({ flight }) => {
             <s>3706 BDT</s>
           </p>
           <p className="text-xs font-bold uppercase">regular fair</p>
-          <p className="text-green-500 font-bold">3,558 BDT*</p>
+          <p className="text-green-500 font-bold">{flight.TotalPrice} BDT*</p>
           <p className="text-green-700 text-xs font-bold">discount fair</p>
           <p className="text-green-500 mt-3 text-center font-bold">
             partial refundable

@@ -14,6 +14,19 @@ function App() {
     },
   });
 
+  const { data: airLines = [] } = useQuery({
+    queryKey: ["airLines"],
+    queryFn: async () => {
+      const response = await fetch("http://localhost:5001/airLines");
+      const data = await response.json();
+      return data;
+    },
+  });
+
+  const airLinesHandler = (event) => {
+    console.log(event.target.value);
+  };
+
   return (
     <div className="max-w-[1440px] mx-auto">
       <section className="py-6 sm:py-12 bg-white text-gray-900">
@@ -24,9 +37,9 @@ function App() {
               Book Your Tickets Now!
             </p>
           </div>
-          <div className="flex flex-col md:flex-row ">
+          <div className="flex flex-col md:flex-row gap-5">
             <div>
-              <div class="w-full md:w-2/3 shadow p-5 rounded-lg bg-white">
+              <div class="w-full shadow p-5 rounded-lg bg-white">
                 <div class="relative">
                   <div class="absolute flex items-center ml-2 h-full">
                     <svg
@@ -55,19 +68,25 @@ function App() {
                 </div>
 
                 <div>
-                  <div class="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-4 mt-4">
-                    <select class="px-4 py-3 w-full rounded-md bg-gray-100 border-transparent focus:border-gray-500 focus:bg-white focus:ring-0 text-sm">
-                      <option value="">Airlans</option>
-                      <option value="1">1 space</option>
-                      <option value="2">2 space</option>
-                      <option value="3">3 space</option>
-                    </select>
+                  <h2 className="text-md font-bold ">Airlines</h2>
+                  <div className="grid grid-cols-1 gap-4 ">
+                    {airLines.map((airLine, idx) => (
+                      <div>
+                        <input
+                          onChange={(e)=>airLinesHandler(e)}
+                          type="checkbox"
+                          id={idx}
+                          value={airLine}
+                        />
+                        <label for={idx}> {airLine}</label>
+                      </div>
+                    ))}
                   </div>
                 </div>
               </div>
             </div>
 
-            <div className="grid grid-cols-1 gap-4 ">
+            <div className="grid grid-cols-1 gap-4 w-[90%] ">
               {flightList.map((flight) => (
                 <FlightBookingCard
                   key={flight.id}
