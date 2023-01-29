@@ -1,4 +1,4 @@
-import React, { useEffect, useState,useCallback } from "react";
+import React, { useEffect, useState, useCallback } from "react";
 import "./App.css";
 import FlightBookingCard from "./components/FlightBookingCard";
 import MultiRangeSlider from "./components/multiRangeSlider/MultiRangeSlider";
@@ -6,15 +6,14 @@ import debounce from "lodash.debounce";
 import Loading from "./components/Loading/Loading";
 
 function App() {
-  const[loading,setLoading]= useState(false);
+  const [loading, setLoading] = useState(false);
   const [flightList, setFlightList] = useState([]);
-  const [airLines,setAirLines]= useState([]);
+  const [airLines, setAirLines] = useState([]);
   const [state, setState] = useState({
     price: "",
     name: "",
     time: "",
   });
- 
 
   const departTimes = [
     "00:00 to 05:59",
@@ -24,25 +23,23 @@ function App() {
   ];
 
   useEffect(() => {
-    fetch("http://localhost:5001/flightList")
+    fetch("https://flight-list-server.vercel.app/flightList")
       .then((response) => response.json())
       .then((data) => setFlightList(data));
 
-      fetch("http://localhost:5001/airLines")
+    fetch("https://flight-list-server.vercel.app/airLines")
       .then((response) => response.json())
       .then((data) => setAirLines(data));
   }, []);
 
-
   // airline filter
   const airLinesHandler = (event) => {
-
     setLoading(true);
     setFlightList([]);
 
     if (event.target.checked) {
       state.name = event.target.value;
-      fetch("http://localhost:5001/airLines/filtering", {
+      fetch("https://flight-list-server.vercel.app/airLines/filtering", {
         method: "POST",
         headers: {
           "content-type": "application/json",
@@ -52,14 +49,10 @@ function App() {
         .then((response) => response.json())
         .then((data) => {
           setLoading(false);
-          setFlightList(data)
-
+          setFlightList(data);
         });
     }
-
   };
-
-
 
   //depart time filter
   const departTimesHandler = (event) => {
@@ -67,7 +60,7 @@ function App() {
     setFlightList([]);
     if (event.target.checked) {
       state.time = event.target.value;
-      fetch("http://localhost:5001/airLines/filtering", {
+      fetch("https://flight-list-server.vercel.app/airLines/filtering", {
         method: "POST",
         headers: {
           "content-type": "application/json",
@@ -77,7 +70,7 @@ function App() {
         .then((response) => response.json())
         .then((data) => {
           setLoading(false);
-          setFlightList(data)
+          setFlightList(data);
         });
     }
   };
@@ -86,7 +79,7 @@ function App() {
     setLoading(true);
     setFlightList([]);
 
-    fetch("http://localhost:5001/airLines/filtering", {
+    fetch("https://flight-list-server.vercel.app/airLines/filtering", {
       method: "POST",
       headers: {
         "content-type": "application/json",
@@ -94,50 +87,45 @@ function App() {
       body: JSON.stringify(state),
     })
       .then((response) => response.json())
-      .then((data) =>{
+      .then((data) => {
         setLoading(false);
         setFlightList(data);
       });
   };
 
+  const debouncedFilter = useCallback(
+    debounce((state) => {
+      console.log("called");
+      // api call
+      fetchUsingPrice(state);
+    }, 500),
+    []
+  );
 
-  const debouncedFilter = useCallback(debounce(state =>{
-    
-    console.log("called");
-    // api call
-    fetchUsingPrice(state);
-
-  }, 500), []
-  )
-  
   //price filter
   const priceFilterHandler = (min, max) => {
     const price = `${min},${max}`;
     console.log(price);
 
-    if(state.price == ""){
-      setState({...state,price:price});
+    if (state.price == "") {
+      setState({ ...state, price: price });
     }
-    if(state.price != "" && state.price != price){
-
-      const prevState= {...state};
-      prevState.price= price;
+    if (state.price != "" && state.price != price) {
+      const prevState = { ...state };
+      prevState.price = price;
 
       console.log("comes");
       debouncedFilter(prevState);
 
-      setState({...state,...prevState});
+      setState({ ...state, ...prevState });
     }
-
-    
-
   };
 
   // console.log(state);
 
   return (
     <div className="max-w-[1440px] mx-auto">
-      {loading ? <Loading></Loading>:"" }
+    
       <section className="py-6 sm:py-12 bg-white text-gray-900">
         <div className="container p-6 mx-auto space-y-8">
           <div className="space-y-2 text-center">
@@ -198,17 +186,18 @@ function App() {
                 <div className="my-3">
                   <h2 className="text-md font-bold ">Depart Time</h2>
                   <form className="grid grid-cols-1 gap-4 ">
-                    {departTimes.length>0 && departTimes.map((departTime, id) => (
-                      <div>
-                        <input
-                          onChange={(e) => departTimesHandler(e)}
-                          type="checkbox"
-                          id={id + 5}
-                          value={departTime}
-                        />
-                        <label htmlFor={id + 5}> {departTime}</label>
-                      </div>
-                    ))}
+                    {departTimes.length > 0 &&
+                      departTimes.map((departTime, id) => (
+                        <div>
+                          <input
+                            onChange={(e) => departTimesHandler(e)}
+                            type="checkbox"
+                            id={id + 5}
+                            value={departTime}
+                          />
+                          <label htmlFor={id + 5}> {departTime}</label>
+                        </div>
+                      ))}
                   </form>
                 </div>
 
@@ -224,12 +213,14 @@ function App() {
             </div>
 
             <div className="grid grid-cols-1 gap-4 w-[90%] ">
-              {flightList.length>0 && flightList.map((flight) => (
-                <FlightBookingCard
-                  key={flight.id}
-                  flight={flight}
-                ></FlightBookingCard>
-              ))}
+            {loading ? <Loading></Loading> : ""}
+              {flightList.length > 0 &&
+                flightList.map((flight) => (
+                  <FlightBookingCard
+                    key={flight.id}
+                    flight={flight}
+                  ></FlightBookingCard>
+                ))}
             </div>
           </div>
         </div>
