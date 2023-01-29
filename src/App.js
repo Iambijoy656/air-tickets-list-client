@@ -1,17 +1,19 @@
-import { useQuery } from "@tanstack/react-query";
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState,useCallback } from "react";
 import "./App.css";
 import FlightBookingCard from "./components/FlightBookingCard";
 import MultiRangeSlider from "./components/multiRangeSlider/MultiRangeSlider";
+import debounce from "lodash.debounce";
 
 function App() {
+  const[loading,setLoading]= useState(false);
   const [flightList, setFlightList] = useState([]);
+  const [airLines,setAirLines]= useState([]);
   const [state, setState] = useState({
     price: "",
     name: "",
     time: "",
   });
-  // const price= obj.price ==""? 3000:req.body.price;
+ 
 
   const departTimes = [
     "00:00 to 05:59",
@@ -24,33 +26,18 @@ function App() {
     fetch("http://localhost:5001/flightList")
       .then((response) => response.json())
       .then((data) => setFlightList(data));
+
+      fetch("http://localhost:5001/airLines")
+      .then((response) => response.json())
+      .then((data) => setAirLines(data));
   }, []);
 
-  // const { data: flightList = [] } = useQuery({
-  //   queryKey: ["flightList"],
-  //   queryFn: async () => {
-  //     const response = await fetch("http://localhost:5001/flightList");
-  //     const data = await response.json();
-
-  //     return data;
-  //   },
-  // });
-
-  const { data: airLines = [] } = useQuery({
-    queryKey: ["airLines"],
-    queryFn: async () => {
-      const response = await fetch("http://localhost:5001/airLines");
-      const data = await response.json();
-      return data;
-    },
-  });
 
   // airline filter
   const airLinesHandler = (event) => {
-    // setState({ ...state, name: event.target.value });
-    // state.name = event.target.value;
-    //     let x = state;
-    //     console.log(x);
+
+    setLoading(true);
+    setFlightList([]);
 
     if (event.target.checked) {
       state.name = event.target.value;
@@ -62,17 +49,16 @@ function App() {
         body: JSON.stringify(state),
       })
         .then((response) => response.json())
-        .then((data) => setFlightList(data));
+        .then((data) => {
+          setLoading(false);
+          setFlightList(data)
+
+        });
     }
 
-    // if (event.target.checked) {
-    //   fetch(`http://localhost:5001/airLines/${event.target.value}`)
-    //     .then((response) => response.json())
-    //     .then((data) => {
-    //       setFlightList(data);
-    //     });
-    // }
   };
+
+
 
   //depart time filter
   const departTimesHandler = (event) => {
@@ -90,26 +76,59 @@ function App() {
     }
   };
 
+  const fetchUsingPrice = (state) => {
+
+    fetch("http://localhost:5001/airLines/filtering", {
+      method: "POST",
+      headers: {
+        "content-type": "application/json",
+      },
+      body: JSON.stringify(state),
+    })
+      .then((response) => response.json())
+      .then((data) =>{
+        setFlightList(data);
+      });
+  };
+
+
+  const debouncedFilter = useCallback(debounce(state =>{
+    
+    console.log("called");
+    // api call
+    fetchUsingPrice(state);
+
+  }, 500), []
+  )
+  
   //price filter
   const priceFilterHandler = (min, max) => {
-    const value = `${min},${max}`;
-    console.log(value);
-    state.price = value;
-    // fetch("http://localhost:5001/airLines/filtering", {
-    //   method: "POST",
-    //   headers: {
-    //     "content-type": "application/json",
-    //   },
-    //   body: JSON.stringify(state),
-    // })
-    //   .then((response) => response.json())
-    //   .then((data) => setFlightList(data));
+    const price = `${min},${max}`;
+    console.log(price);
+
+    if(state.price == ""){
+      setState({...state,price:price});
+    }
+    if(state.price != "" && state.price != price){
+
+      const prevState= {...state};
+      prevState.price= price;
+
+      console.log("comes");
+      debouncedFilter(prevState);
+
+      setState({...state,...prevState});
+    }
+
+    
+
   };
 
   // console.log(state);
 
   return (
     <div className="max-w-[1440px] mx-auto">
+      {loading ? <div>isloading</div>:"" }
       <section className="py-6 sm:py-12 bg-white text-gray-900">
         <div className="container p-6 mx-auto space-y-8">
           <div className="space-y-2 text-center">
@@ -170,7 +189,7 @@ function App() {
                 <div className="my-3">
                   <h2 className="text-md font-bold ">Depart Time</h2>
                   <form className="grid grid-cols-1 gap-4 ">
-                    {departTimes.map((departTime, id) => (
+                    {departTimes.length>0 && departTimes.map((departTime, id) => (
                       <div>
                         <input
                           onChange={(e) => departTimesHandler(e)}
@@ -187,8 +206,8 @@ function App() {
                 <div className="my-3">
                   <h2 className="text-md font-bold mb-8">Price Filter</h2>
                   <MultiRangeSlider
-                    min={3359}
-                    max={5113}
+                    min={1000}
+                    max={5000}
                     onChange={({ min, max }) => priceFilterHandler(min, max)}
                   />
                 </div>
@@ -196,7 +215,7 @@ function App() {
             </div>
 
             <div className="grid grid-cols-1 gap-4 w-[90%] ">
-              {flightList.map((flight) => (
+              {flightList.length>0 && flightList.map((flight) => (
                 <FlightBookingCard
                   key={flight.id}
                   flight={flight}
