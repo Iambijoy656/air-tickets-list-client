@@ -3,6 +3,7 @@ import "./App.css";
 import FlightBookingCard from "./components/FlightBookingCard";
 import MultiRangeSlider from "./components/multiRangeSlider/MultiRangeSlider";
 import debounce from "lodash.debounce";
+import Loading from "./components/Loading/Loading";
 
 function App() {
   const[loading,setLoading]= useState(false);
@@ -62,6 +63,8 @@ function App() {
 
   //depart time filter
   const departTimesHandler = (event) => {
+    setLoading(true);
+    setFlightList([]);
     if (event.target.checked) {
       state.time = event.target.value;
       fetch("http://localhost:5001/airLines/filtering", {
@@ -72,11 +75,16 @@ function App() {
         body: JSON.stringify(state),
       })
         .then((response) => response.json())
-        .then((data) => setFlightList(data));
+        .then((data) => {
+          setLoading(false);
+          setFlightList(data)
+        });
     }
   };
 
   const fetchUsingPrice = (state) => {
+    setLoading(true);
+    setFlightList([]);
 
     fetch("http://localhost:5001/airLines/filtering", {
       method: "POST",
@@ -87,6 +95,7 @@ function App() {
     })
       .then((response) => response.json())
       .then((data) =>{
+        setLoading(false);
         setFlightList(data);
       });
   };
@@ -128,7 +137,7 @@ function App() {
 
   return (
     <div className="max-w-[1440px] mx-auto">
-      {loading ? <div>isloading</div>:"" }
+      {loading ? <Loading></Loading>:"" }
       <section className="py-6 sm:py-12 bg-white text-gray-900">
         <div className="container p-6 mx-auto space-y-8">
           <div className="space-y-2 text-center">
