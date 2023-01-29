@@ -6,6 +6,13 @@ import MultiRangeSlider from "./components/multiRangeSlider/MultiRangeSlider";
 
 function App() {
   const [flightList, setFlightList] = useState([]);
+  const [state, setState] = useState({
+    price: "",
+    name: "",
+    time: "",
+  });
+  // const price= obj.price ==""? 3000:req.body.price;
+
   const departTimes = [
     "00:00 to 05:59",
     "06:00 to 11:59",
@@ -40,25 +47,46 @@ function App() {
 
   // airline filter
   const airLinesHandler = (event) => {
-    setFlightList([]);
+    // setState({ ...state, name: event.target.value });
+    // state.name = event.target.value;
+    //     let x = state;
+    //     console.log(x);
+
     if (event.target.checked) {
-      fetch(`http://localhost:5001/airLines/${event.target.value}`)
+      state.name = event.target.value;
+      fetch("http://localhost:5001/airLines/filtering", {
+        method: "POST",
+        headers: {
+          "content-type": "application/json",
+        },
+        body: JSON.stringify(state),
+      })
         .then((response) => response.json())
-        .then((data) => {
-          setFlightList(data);
-        });
+        .then((data) => setFlightList(data));
     }
+
+    // if (event.target.checked) {
+    //   fetch(`http://localhost:5001/airLines/${event.target.value}`)
+    //     .then((response) => response.json())
+    //     .then((data) => {
+    //       setFlightList(data);
+    //     });
+    // }
   };
 
   //depart time filter
   const departTimesHandler = (event) => {
-    setFlightList([]);
     if (event.target.checked) {
-      fetch(`http://localhost:5001/departTimes/${event.target.value}`)
+      state.time = event.target.value;
+      fetch("http://localhost:5001/airLines/filtering", {
+        method: "POST",
+        headers: {
+          "content-type": "application/json",
+        },
+        body: JSON.stringify(state),
+      })
         .then((response) => response.json())
-        .then((data) => {
-          setFlightList(data);
-        });
+        .then((data) => setFlightList(data));
     }
   };
 
@@ -66,10 +94,19 @@ function App() {
   const priceFilterHandler = (min, max) => {
     const value = `${min},${max}`;
     console.log(value);
-    fetch(`http://localhost:5001/priceFilter/${value}`)
-    .then((response) => response.json())
-    .then((data) =>  setFlightList(data));
+    state.price = value;
+    // fetch("http://localhost:5001/airLines/filtering", {
+    //   method: "POST",
+    //   headers: {
+    //     "content-type": "application/json",
+    //   },
+    //   body: JSON.stringify(state),
+    // })
+    //   .then((response) => response.json())
+    //   .then((data) => setFlightList(data));
   };
+
+  // console.log(state);
 
   return (
     <div className="max-w-[1440px] mx-auto">
@@ -117,7 +154,9 @@ function App() {
                     {airLines.map((airLine, idx) => (
                       <div>
                         <input
-                          onChange={(e) => airLinesHandler(e)}
+                          onClick={(e) =>
+                            e.target.checked && airLinesHandler(e)
+                          }
                           type="checkbox"
                           id={idx}
                           value={airLine}
